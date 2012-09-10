@@ -1,5 +1,6 @@
 Apprenticeship::Application.routes.draw do
   resources :articles
+  resources :types_of_jobs
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
