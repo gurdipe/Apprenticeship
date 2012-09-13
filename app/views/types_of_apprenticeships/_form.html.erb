@@ -1,0 +1,45 @@
+<%= form_for(@types_of_apprenticeship) do |f| %>
+  <% if @types_of_apprenticeship.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@types_of_apprenticeship.errors.count, "error") %> prohibited this types_of_apprenticeship from being saved:</h2>
+
+      <ul>
+      <% @types_of_apprenticeship.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :sector %><br />
+    <%= f.text_field :sector %>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </div>
+  <div class="field">
+    <%= f.label :small_icon %><br />
+    <%= f.text_field :small_icon %>
+  </div>
+  <div class="field">
+    <%= f.label :sector_image %><br />
+    <%= f.text_field :sector_image %>
+  </div>
+  <div class="field">
+    <%= f.label :job_roles %><br />
+    <%= f.text_field :job_roles %>
+  </div>
+  <div class="field">
+    <%= f.label :salary %><br />
+    <%= f.text_field :salary %>
+  </div>
+  <div class="field">
+    <%= f.label :quals %><br />
+    <%= f.text_field :quals %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
