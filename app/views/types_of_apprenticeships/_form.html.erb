@@ -1,4 +1,4 @@
-<%= form_for(@types_of_apprenticeship) do |f| %>
+<%= form_for(@types_of_apprenticeship, :html => { :multipart => true }) do |f| %>
   <% if @types_of_apprenticeship.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@types_of_apprenticeship.errors.count, "error") %> prohibited this types_of_apprenticeship from being saved:</h2>
@@ -16,12 +16,12 @@
     <%= f.text_field :sector %>
   </div>
   <div class="field">
-    <%= f.label :type %><br />
-    <%= f.text_field :type %>
+    <%= f.label :app_type %><br />
+    <%= f.text_field :app_type %>
   </div>
   <div class="field">
     <%= f.label :small_icon %><br />
-    <%= f.text_field :small_icon %>
+    <%= f.file_field :small_icon %>
   </div>
   <div class="field">
     <%= f.label :sector_image %><br />

@@ -18,27 +18,15 @@ ActiveRecord::Schema.define(:version => 20120913114134) do
     t.string   "title"
     t.text     "small_content"
     t.text     "full_content"
+    t.text     "article_type"
     t.integer  "discipline_id"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
-    t.string   "type"
-  end
-
-  create_table "types_of_apprencticeships", :force => true do |t|
-    t.string   "sector"
-    t.string   "type"
-    t.string   "small_icon"
-    t.string   "sector_image"
-    t.string   "job_roles"
-    t.string   "salary"
-    t.string   "quals"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
   end
 
   create_table "types_of_apprenticeships", :force => true do |t|
     t.string   "sector"
-    t.string   "type"
+    t.string   "app_type"
     t.string   "small_icon"
     t.string   "sector_image"
     t.string   "job_roles"

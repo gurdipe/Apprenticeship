@@ -5,6 +5,7 @@ class CreateArticles < ActiveRecord::Migration
       t.string :title
       t.text :small_content
       t.text :full_content
+      t.text :article_type
       t.integer :discipline_id
 
       t.timestamps
