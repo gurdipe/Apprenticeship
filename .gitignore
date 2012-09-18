@@ -10,6 +10,6 @@ bundler_stubs/
 Gemfile.lock
 public/uploads
 public/ckeditor_assets
-public/system/redactor_assets/
+public/system/redactor_assets
 
 #app/assets/images/static_images
