@@ -1,0 +1,2 @@
+module TypesOfApprenticeshipsHelper
+end

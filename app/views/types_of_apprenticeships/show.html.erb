@@ -1,0 +1,42 @@
+<h1>Review Apprenticeship Type</h1>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Sector:</b>
+  <%= @types_of_apprenticeship.sector %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @types_of_apprenticeship.app_type %>
+</p>
+
+<p>
+  <b>Small icon:</b>
+  <%= @types_of_apprenticeship.small_icon %>
+</p>
+
+<p>
+  <b>Sector image:</b>
+  <%= @types_of_apprenticeship.sector_image %>
+</p>
+
+<p>
+  <b>Job roles:</b>
+  <%= @types_of_apprenticeship.job_roles %>
+</p>
+
+<p>
+  <b>Salary:</b>
+  <%= @types_of_apprenticeship.salary %>
+</p>
+
+<p>
+  <b>Quals:</b>
+  <%= @types_of_apprenticeship.quals %>
+</p>
+
+
+<%= link_to 'Edit', edit_types_of_apprenticeship_path(@types_of_apprenticeship) %> |
+<%= link_to 'Back', types_of_apprenticeships_path %>
