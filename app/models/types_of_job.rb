@@ -1,5 +1,0 @@
-
-class TypesOfJob < Article
-
-
-end
