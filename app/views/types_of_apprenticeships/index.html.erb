@@ -23,13 +23,14 @@
     <td><%= types_of_apprenticeship.job_roles %></td>
     <td><%= types_of_apprenticeship.salary %></td>
     <td><%= types_of_apprenticeship.quals %></td>
-    <td><%= link_to 'Show', types_of_apprenticeship %></td>
-    <td><%= link_to 'Edit', edit_types_of_apprenticeship_path(types_of_apprenticeship) %></td>
-    <td><%= link_to 'Destroy', types_of_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', types_of_apprenticeship, :class => 'btn btn-mini'  %></td>
+    <td><%= link_to 'Edit', edit_types_of_apprenticeship_path(types_of_apprenticeship), :class => 'btn btn-mini'  %></td>
+    <td><%= link_to 'Destroy', types_of_apprenticeship, method: :delete, data: { confirm: 'Are you sure?', 
+        },  :class => 'btn btn-mini btn-danger'  %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Types of apprenticeship', new_types_of_apprenticeship_path %>
+<%= link_to 'New Types of apprenticeship', new_types_of_apprenticeship_path, :class => 'btn btn-mini'  %>

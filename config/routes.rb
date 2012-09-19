@@ -1,4 +1,8 @@
 Apprenticeship::Application.routes.draw do
+  resources :sectors
+
+  resources :apprenticeship_types
+
   mount RedactorRails::Engine => '/redactor_rails'
 
   get "static_pages/home"

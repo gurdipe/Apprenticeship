@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'seed_dump'
 gem 'redactor-rails'
+gem 'rmagick'
 gem "mini_magick"
 
 # Bundle edge Rails instead:
