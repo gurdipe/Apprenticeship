@@ -1,0 +1,31 @@
+<h1>Listing apprenticeship_types</h1>
+
+<table>
+  <tr>
+    <th>Apprenticeship type</th>
+    <th>Description</th>
+    <th>Job role</th>
+    <th>Qualification</th>
+    <th>Salary</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @apprenticeship_types.each do |apprenticeship_type| %>
+  <tr>
+    <td><%= apprenticeship_type.apprenticeship_type %></td>
+    <td><%= apprenticeship_type.description %></td>
+    <td><%= apprenticeship_type.job_role %></td>
+    <td><%= apprenticeship_type.qualification %></td>
+    <td><%= apprenticeship_type.salary %></td>
+    <td><%= link_to 'Show', apprenticeship_type %></td>
+    <td><%= link_to 'Edit', edit_apprenticeship_type_path(apprenticeship_type) %></td>
+    <td><%= link_to 'Destroy', apprenticeship_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Apprenticeship type', new_apprenticeship_type_path %>

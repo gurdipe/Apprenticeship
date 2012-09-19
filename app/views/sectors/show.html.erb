@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @sector.title %>
+</p>
+
+<p>
+  <b>Small image:</b>
+  <%= @sector.small_image %>
+</p>
+
+<p>
+  <b>App types image:</b>
+  <%= @sector.app_types_image %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @sector.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_sector_path(@sector) %> |
+<%= link_to 'Back', sectors_path %>
