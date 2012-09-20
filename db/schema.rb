@@ -11,7 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120915074247) do
+ActiveRecord::Schema.define(:version => 20120919124437) do
+
+  create_table "apprenticeship_types", :force => true do |t|
+    t.string   "apprenticeship_type"
+    t.text     "description"
+    t.string   "job_role"
+    t.string   "qualification"
+    t.string   "salary"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+    t.integer  "sector_id"
+  end
 
   create_table "articles", :force => true do |t|
     t.integer  "type_id"
@@ -39,6 +50,15 @@ ActiveRecord::Schema.define(:version => 20120915074247) do
 
   add_index "redactor_assets", ["assetable_type", "assetable_id"], :name => "idx_redactor_assetable"
   add_index "redactor_assets", ["assetable_type", "type", "assetable_id"], :name => "idx_redactor_assetable_type"
+
+  create_table "sectors", :force => true do |t|
+    t.string   "title"
+    t.string   "small_image"
+    t.string   "app_types_image"
+    t.text     "sector_description"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
 
   create_table "types_of_apprenticeships", :force => true do |t|
     t.string   "sector"

@@ -1,4 +1,4 @@
-<%= form_for(@sector) do |f| %>
+<%= form_for(@sector, :html => { :multipart => true }) do |f| %>
   <% if @sector.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@sector.errors.count, "error") %> prohibited this sector from being saved:</h2>
@@ -11,21 +11,24 @@
     </div>
   <% end %>
 
+
   <div class="field">
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class => "input-xlarge" %>
   </div>
   <div class="field">
+  <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
     <%= f.label :small_image %><br />
-    <%= f.text_field :small_image %>
+    <%= f.file_field :small_image %>
   </div>
   <div class="field">
+  <%= image_tag(@sector.app_types_image.url.to_s) if @sector.app_types_image.url { nnn } %>
     <%= f.label :app_types_image %><br />
-    <%= f.text_field :app_types_image %>
+    <%= f.file_field :app_types_image %>
   </div>
   <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
+    <%= f.label :sector_description %><br />
+    <%= f.text_area :sector_description %>
   </div>
   <div class="actions">
     <%= f.submit %>

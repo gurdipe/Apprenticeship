@@ -1,7 +1,6 @@
 class TypesOfApprenticeship < ActiveRecord::Base
   attr_accessible :job_roles, :quals, :salary, :sector, :sector_image, :small_icon, :app_type
-  mount_uploader :small_icon, SmallIconUploader
-  mount_uploader :sector_image, SectorImageUploader
+
 
 
   # def sector_image_url
