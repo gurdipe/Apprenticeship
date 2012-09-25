@@ -1,3 +1,5 @@
+    <div class="span4">
+
 <%= form_for(@sector, :html => { :multipart => true }) do |f| %>
   <% if @sector.errors.any? %>
     <div id="error_explanation">
@@ -16,21 +18,38 @@
     <%= f.label :title %><br />
     <%= f.text_field :title, :class => "input-xlarge" %>
   </div>
+
+
   <div class="field">
   <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
-    <%= f.label :small_image %><br />
+    <%= f.label :small_image %> 
     <%= f.file_field :small_image %>
   </div>
+
   <div class="field">
   <%= image_tag(@sector.app_types_image.url.to_s) if @sector.app_types_image.url { nnn } %>
-    <%= f.label :app_types_image %><br />
+    <%= f.label :app_types_image %>
     <%= f.file_field :app_types_image %>
   </div>
+   </div>
+
+ <div class="span4">
   <div class="field">
     <%= f.label :sector_description %><br />
     <%= f.text_area :sector_description %>
   </div>
+</div>
   <div class="actions">
-    <%= f.submit %>
+
+<div class="span2">
+  <%= f.fields_for :apprenticeship_types do |builder| %>
+    <%= render 'app_types', :f => builder %>
+  <% end %>
+
+   <%= f.submit   %>
   </div>
 <% end %>
+
+</div>
+
+
