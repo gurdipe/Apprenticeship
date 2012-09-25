@@ -19,17 +19,12 @@ attr_accessible :all_clients
 		 	only: [:id, :title, :created_at, :updated_at, :sector_description ], 
 		 	methods: [:small_image_url, :small_image_name, :app_types_image_url,  :app_types_image_name] ) ,
 		:ApprenticeshipTypes => ApprenticeshipType.all.as_json(
-			[:apprenticeship_type, :id, :sector_id, :qualification, :salary ],
+			only: [:apprenticeship_type, :id, :sector_id, :qualification, :salary ],
 			methods: [ :appTypeDescription ]
 			)
 			}
 		 
-   t.string   "apprenticeship_type"
-    t.text     "description"
-    t.string   "job_role"
-    t.string   "qualification"
-    t.string   "salary"
-    t.integer  "sector_id"
+
 	end
 
 end
