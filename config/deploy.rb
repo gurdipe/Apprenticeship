@@ -34,6 +34,8 @@ namespace :deploy do
 	task :restart do
 	    run "rm /var/www/apprentice/current/config/database.yml"
 	    run "ln -s /var/www/apprentice/shared/database.yml /var/www/apprentice/current/config/database.yml"
+  		# run "rm /var/www/apprentice/current/public/uploads"
+	    run "ln -s /var/www/apprentice/shared/uploads /var/www/apprentice/current/public/uploads"
 	    run "rm -rf /var/www/apprentice/current/log"
 	    run "ln -s /var/www/apprentice/shared/log /var/www/apprentice/current/log"
 	    run "touch /var/www/apprentice/current/tmp/restart.txt"
