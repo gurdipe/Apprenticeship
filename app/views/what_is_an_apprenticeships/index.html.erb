@@ -1,0 +1,31 @@
+<h1>Listing what_is_an_apprenticeships</h1>
+
+<table>
+  <tr>
+    <th>Description detail</th>
+    <th>What is it like</th>
+    <th>Why do one</th>
+    <th>Qualifications</th>
+    <th>Ten things</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @what_is_an_apprenticeships.each do |what_is_an_apprenticeship| %>
+  <tr>
+    <td><%= what_is_an_apprenticeship.description_detail %></td>
+    <td><%= what_is_an_apprenticeship.what_is_it_like %></td>
+    <td><%= what_is_an_apprenticeship.why_do_one %></td>
+    <td><%= what_is_an_apprenticeship.qualifications %></td>
+    <td><%= what_is_an_apprenticeship.ten_things %></td>
+    <td><%= link_to 'Show', what_is_an_apprenticeship %></td>
+    <td><%= link_to 'Edit', edit_what_is_an_apprenticeship_path(what_is_an_apprenticeship) %></td>
+    <td><%= link_to 'Destroy', what_is_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New What is an apprenticeship', new_what_is_an_apprenticeship_path %>

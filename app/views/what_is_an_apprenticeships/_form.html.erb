@@ -1,0 +1,37 @@
+<%= form_for(@what_is_an_apprenticeship) do |f| %>
+  <% if @what_is_an_apprenticeship.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@what_is_an_apprenticeship.errors.count, "error") %> prohibited this what_is_an_apprenticeship from being saved:</h2>
+
+      <ul>
+      <% @what_is_an_apprenticeship.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :description_detail %><br />
+    <%= f.text_area :description_detail %>
+  </div>
+  <div class="field">
+    <%= f.label :what_is_it_like %><br />
+    <%= f.text_area :what_is_it_like %>
+  </div>
+  <div class="field">
+    <%= f.label :why_do_one %><br />
+    <%= f.text_area :why_do_one %>
+  </div>
+  <div class="field">
+    <%= f.label :qualifications %><br />
+    <%= f.text_area :qualifications %>
+  </div>
+  <div class="field">
+    <%= f.label :ten_things %><br />
+    <%= f.text_area :ten_things %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
