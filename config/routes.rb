@@ -1,4 +1,6 @@
 Apprenticeship::Application.routes.draw do
+  resources :what_is_an_apprenticeships
+
   resources :sectors
 
   resources :apprenticeship_types

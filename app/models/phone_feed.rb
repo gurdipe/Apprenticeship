@@ -17,10 +17,14 @@ attr_accessible :all_clients
 
 		 :Sectors => Sector.all.as_json(
 		 	only: [:id, :title, :created_at, :updated_at, :sector_description ], 
-		 	methods: [:small_image_url, :small_image_name, :app_types_image_url,  :app_types_image_name] ) ,
+		 	methods: [:small_image_url, :small_image_name, :app_types_image_url,  :app_types_image_name] 
+		 	) ,
 		:ApprenticeshipTypes => ApprenticeshipType.all.as_json(
-			only: [:apprenticeship_type, :id, :sector_id, :qualification, :salary ],
+			only: [:job_role, :apprenticeship_type, :id, :sector_id, :qualification, :salary ],
 			methods: [ :appTypeDescription ]
+			),
+		:WhatIsAnApprenticeships => WhatIsAnApprenticeship.all.as_json(
+			only: [:description_detail, :qualifications, :ten_things, :what_is_it_like, :why_do_one]
 			)
 			}
 		 
