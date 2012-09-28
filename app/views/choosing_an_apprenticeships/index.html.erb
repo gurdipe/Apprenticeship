@@ -1,0 +1,33 @@
+<h1>Listing choosing_an_apprenticeships</h1>
+
+<table>
+  <tr>
+    <th>Skills</th>
+    <th>Travel</th>
+    <th>Employers</th>
+    <th>Qualifications</th>
+    <th>Training</th>
+    <th>Money</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @choosing_an_apprenticeships.each do |choosing_an_apprenticeship| %>
+  <tr>
+    <td><%= choosing_an_apprenticeship.skills %></td>
+    <td><%= choosing_an_apprenticeship.travel %></td>
+    <td><%= choosing_an_apprenticeship.employers %></td>
+    <td><%= choosing_an_apprenticeship.qualifications %></td>
+    <td><%= choosing_an_apprenticeship.training %></td>
+    <td><%= choosing_an_apprenticeship.money %></td>
+    <td><%= link_to 'Show', choosing_an_apprenticeship %></td>
+    <td><%= link_to 'Edit', edit_choosing_an_apprenticeship_path(choosing_an_apprenticeship) %></td>
+    <td><%= link_to 'Destroy', choosing_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Choosing an apprenticeship', new_choosing_an_apprenticeship_path %>
