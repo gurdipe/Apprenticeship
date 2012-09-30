@@ -25,7 +25,8 @@ attr_accessible :all_clients
 			),
 		:WhatIsAnApprenticeships => WhatIsAnApprenticeship.all.as_json(
 			only: [:description_detail, :qualifications, :ten_things, :what_is_it_like, :why_do_one]
-			),
+			)
+		,
 		:ChoosingAnApprenticeships => ChoosingAnApprenticeship.all.as_json(
 			only: [:employers, :money, :qualifications, :skills, :training, :travel]
 			)
