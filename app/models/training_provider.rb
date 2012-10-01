@@ -4,4 +4,10 @@ class TrainingProvider < ActiveRecord::Base
 
   mount_uploader :logo_image, TrainingProviderLogoUploader
 
+
+ def logo_image_url
+  	logo_image.url.to_s
+  end
+
+
 end

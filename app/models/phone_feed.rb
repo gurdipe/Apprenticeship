@@ -28,6 +28,10 @@ attr_accessible :all_clients
 			),
 		:ChoosingAnApprenticeships => ChoosingAnApprenticeship.all.as_json(
 			only: [:employers, :money, :qualifications, :skills, :training, :travel]
+			),
+		:TrainingProviders => TrainingProvider.all.as_json(
+			only: [:contact_number, :email_address, :position, :provider_description, :provider_name, :region, :web_address],
+			methods: [ :logo_image_url ]
 			)
 			}
 		 
