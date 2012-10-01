@@ -1,0 +1,37 @@
+<h1>Listing training_providers</h1>
+
+<table>
+  <tr>
+    <th>Provider name</th>
+    <th>Region</th>
+    <th>Logo image</th>
+    <th>Provider description</th>
+    <th>Email address</th>
+    <th>Web address</th>
+    <th>Contact number</th>
+    <th>Position</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @training_providers.each do |training_provider| %>
+  <tr>
+    <td><%= training_provider.provider_name %></td>
+    <td><%= training_provider.region %></td>
+    <td><%= training_provider.logo_image %></td>
+    <td><%= training_provider.provider_description %></td>
+    <td><%= training_provider.email_address %></td>
+    <td><%= training_provider.web_address %></td>
+    <td><%= training_provider.contact_number %></td>
+    <td><%= training_provider.position %></td>
+    <td><%= link_to 'Show', training_provider %></td>
+    <td><%= link_to 'Edit', edit_training_provider_path(training_provider) %></td>
+    <td><%= link_to 'Destroy', training_provider, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Training provider', new_training_provider_path %>

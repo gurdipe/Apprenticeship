@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Provider name:</b>
+  <%= @training_provider.provider_name %>
+</p>
+
+<p>
+  <b>Region:</b>
+  <%= @training_provider.region %>
+</p>
+
+<p>
+  <b>Logo image:</b>
+  <%= @training_provider.logo_image %>
+</p>
+
+<p>
+  <b>Provider description:</b>
+  <%= @training_provider.provider_description %>
+</p>
+
+<p>
+  <b>Email address:</b>
+  <%= @training_provider.email_address %>
+</p>
+
+<p>
+  <b>Web address:</b>
+  <%= @training_provider.web_address %>
+</p>
+
+<p>
+  <b>Contact number:</b>
+  <%= @training_provider.contact_number %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @training_provider.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_training_provider_path(@training_provider) %> |
+<%= link_to 'Back', training_providers_path %>

@@ -17,13 +17,12 @@
     <%= link_to 'Home', root_path , :class => "brand"%>
     <ul class="nav">
     <li></li>
-    <li class = "<%= 'active' if params[:controller] == 'sectors' %>"><%= link_to 'Types of Apprenticeship', sectors_path %></li>
-    <li class = "<%= 'active' if params[:controller] == 'controller1' %>"><%= link_to 'Training Providers', types_of_apprenticeships_path %></li>
+    <li class = "<%= 'active' if params[:controller] == 'sectors' %>"><%= link_to 'Frameworks', sectors_path %></li>
+    <li class = "<%= 'active' if params[:controller] == 'apprenticeship_types' %>"><%= link_to 'Types of Apprenticeships', apprenticeship_types_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'choosing_an_apprenticeships' %>"><%= link_to 'Choosing One', choosing_an_apprenticeships_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'what_is_an_apprenticeships' %>"><%= link_to 'What is an Apprenticeship', what_is_an_apprenticeships_path %></li>
-    <li class = "<%= 'active' if params[:controller] == 'controller1' %>"><%= link_to 'How to apply', types_of_apprenticeships_path %></li>
+    <li class = "<%= 'active' if params[:controller] == 'training_providers' %>"><%= link_to 'Training Providers', training_providers_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'controller1' %>"><%= link_to 'Employers', types_of_apprenticeships_path %></li>
-    <li class = "<%= 'active' if params[:controller] == 'articles' %>"><%= link_to 'Articles', articles_path %></li>
     </ul>
     </div>
     </div>

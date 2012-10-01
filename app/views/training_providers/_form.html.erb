@@ -1,0 +1,53 @@
+<%= form_for(@training_provider, :html => {:multipart => true}) do |f| %>
+  <% if @training_provider.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@training_provider.errors.count, "error") %> prohibited this training_provider from being saved:</h2>
+
+      <ul>
+      <% @training_provider.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :provider_name %><br />
+    <%= f.text_field :provider_name %>
+  </div>
+  <div class="field">
+    <%= f.label :region %><br />
+    <%= f.select(:region, ['South West', 'South East', 'Yorkshire & Humber', 'North East', 'North West', 'East of England', 'East Midlands', 'West Midlands', 'London']) %>
+  </div>
+
+
+  <div class="field">
+     <%= image_tag(@training_provider.logo_image.url.to_s) if @training_provider.logo_image %>
+    <%= f.label :logo_image %> 
+    <%= f.file_field :logo_image %>
+  </div>
+
+  <div class="field">
+    <%= f.label :provider_description %><br />
+    <%= f.text_area :provider_description %>
+  </div>
+  <div class="field">
+    <%= f.label :email_address %><br />
+    <%= f.text_field :email_address %>
+  </div>
+  <div class="field">
+    <%= f.label :web_address %><br />
+    <%= f.text_field :web_address %>
+  </div>
+  <div class="field">
+    <%= f.label :contact_number %><br />
+    <%= f.text_field :contact_number %>
+  </div>
+  <div class="field">
+    <%= f.label :position %><br />
+    <%= f.number_field :position %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
