@@ -31,7 +31,7 @@ attr_accessible :all_clients
 			),
 		:TrainingProviders => TrainingProvider.all.as_json(
 			only: [:contact_number, :email_address, :position, :provider_description, :provider_name, :region, :web_address],
-			methods: [ :logo_image_url ]
+			methods: [ :logo_image_url, :logo_image_name ]
 			)
 			}
 		 

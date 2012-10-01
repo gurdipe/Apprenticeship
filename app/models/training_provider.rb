@@ -9,5 +9,13 @@ class TrainingProvider < ActiveRecord::Base
   	logo_image.url.to_s
   end
 
+  def logo_image_name
+  	name_strip logo_image.url.to_s
+  end
+
+	def name_strip url
+	 /(\/\d+\/)(.*\.png)/.match(url)[2].to_s if /(\/\d+\/)(.*\.png)/.match(url)
+
+	end
 
 end
