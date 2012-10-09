@@ -1,4 +1,8 @@
-Apprenticeship::Application.routes.draw do
+  Apprenticeship::Application.routes.draw do
+  resources :employers
+
+  resources :regions
+
   resources :training_providers
 
   resources :choosing_an_apprenticeships
@@ -19,7 +23,17 @@ Apprenticeship::Application.routes.draw do
 
   resources :articles
   resources :types_of_jobs
+
+
+    resources :phone_feeds, :only => [ :index ] do
+
+    end
+
   # get       "phone_feeds"
+
+# get "phone_feeds" do
+
+# end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -29,7 +43,10 @@ Apprenticeship::Application.routes.draw do
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
-    match 'phone_feeds' => 'phone_feeds#index', :as => :phone_feeds
+    # match 'phone_feeds' => 'phone_feeds#index', :as => :phone_feeds
+    get 'phone_feeds/date_since/:last_date' => 'phone_feeds#date_since'
+
+
     # match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
 

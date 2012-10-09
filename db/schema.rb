@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121001095558) do
+ActiveRecord::Schema.define(:version => 20121009091735) do
 
   create_table "apprenticeship_types", :force => true do |t|
     t.string   "apprenticeship_type"
@@ -46,6 +46,43 @@ ActiveRecord::Schema.define(:version => 20121001095558) do
     t.datetime "updated_at",     :null => false
   end
 
+  create_table "employer_influences", :force => true do |t|
+    t.integer  "employer_id"
+    t.integer  "region_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "employer_regions", :force => true do |t|
+    t.integer  "employer_id"
+    t.integer  "region_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "employers", :force => true do |t|
+    t.string   "employer_name"
+    t.string   "logo_image"
+    t.string   "logo_image_name"
+    t.text     "employer_description"
+    t.string   "email_address"
+    t.string   "contact_number"
+    t.integer  "position"
+    t.string   "web_address"
+    t.text     "case_study_description"
+    t.string   "case_study_image"
+    t.string   "case_study_image_name"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+  end
+
+  create_table "provider_influences", :force => true do |t|
+    t.integer  "region_id"
+    t.integer  "training_provider_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
   create_table "redactor_assets", :force => true do |t|
     t.string   "data_file_name",                  :null => false
     t.string   "data_content_type"
@@ -61,6 +98,12 @@ ActiveRecord::Schema.define(:version => 20121001095558) do
 
   add_index "redactor_assets", ["assetable_type", "assetable_id"], :name => "idx_redactor_assetable"
   add_index "redactor_assets", ["assetable_type", "type", "assetable_id"], :name => "idx_redactor_assetable_type"
+
+  create_table "regions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "sectors", :force => true do |t|
     t.string   "title"

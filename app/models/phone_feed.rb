@@ -1,4 +1,5 @@
 class PhoneFeed < ActiveRecord::Base
+# class PhoneFeed
 attr_accessible :all_clients
   class << self
 
@@ -15,9 +16,13 @@ attr_accessible :all_clients
 		 # 	methods: [:small_icon_url] ) ,
 		 # :Articles => Article.all,
 
+		:TrainingProviders => TrainingProvider.all.as_json(
+			only: [:id, :region, :contact_number, :email_address, :position, :provider_description, :provider_name, :web_address],
+			methods: [ :logo_image_url, :logo_image_name, :provider_influences]
+			),
 		 :Sectors => Sector.all.as_json(
 		 	only: [:id, :title, :created_at, :updated_at, :sector_description ], 
-		 	methods: [:small_image_url, :small_image_name, :app_types_image_url,  :app_types_image_name] 
+		 	methods: [:small_image_url, :small_image_name, :app_types_image_url, :apprenticeship_types, :app_types_image_name] 
 		 	) ,
 		:ApprenticeshipTypes => ApprenticeshipType.all.as_json(
 			only: [:job_role, :apprenticeship_type, :id, :sector_id, :qualification, :salary ],
@@ -29,9 +34,9 @@ attr_accessible :all_clients
 		:ChoosingAnApprenticeships => ChoosingAnApprenticeship.all.as_json(
 			only: [:employers, :money, :qualifications, :skills, :training, :travel]
 			),
-		:TrainingProviders => TrainingProvider.all.as_json(
-			only: [:contact_number, :email_address, :position, :provider_description, :provider_name, :region, :web_address],
-			methods: [ :logo_image_url, :logo_image_name ]
+		:Regions => Region.all.as_json(
+			only: [:id, :name ],
+			# methods: [:training_providers ]
 			)
 			}
 		 
