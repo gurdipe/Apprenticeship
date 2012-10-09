@@ -1,5 +1,5 @@
 class Employer < ActiveRecord::Base
-  attr_accessible :case_study_description, :case_study_image, :case_study_image_name, :contact_number, :email_address, :employer_description, :employer_name, :logo_image, :logo_image_name, :position, :web_address
+  attr_accessible :sector_ids, :region_ids, :case_study_description, :case_study_image, :case_study_image_name, :contact_number, :email_address, :employer_description, :employer_name, :logo_image, :logo_image_name, :position, :web_address
 
   mount_uploader :logo_image, LogoImageUploader
   mount_uploader :case_study_image, CaseStudyImageUploader

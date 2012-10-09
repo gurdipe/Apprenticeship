@@ -25,6 +25,8 @@ class TrainingProvidersController < ApplicationController
   # GET /training_providers/new.json
   def new
     @training_provider = TrainingProvider.new
+    @sectors = Sector.all
+    @regions  = Region.all
 
     respond_to do |format|
       format.html # new.html.erb
@@ -35,13 +37,15 @@ class TrainingProvidersController < ApplicationController
   # GET /training_providers/1/edit
   def edit
     @training_provider = TrainingProvider.find(params[:id])
+    @sectors = Sector.all
+    @regions  = Region.all
+
   end
 
   # POST /training_providers
   # POST /training_providers.json
   def create
     @training_provider = TrainingProvider.new(params[:training_provider])
-
     respond_to do |format|
       if @training_provider.save
         format.html { redirect_to @training_provider, notice: 'Training provider was successfully created.' }
@@ -57,6 +61,8 @@ class TrainingProvidersController < ApplicationController
   # PUT /training_providers/1.json
   def update
     @training_provider = TrainingProvider.find(params[:id])
+    @employer.region_ids = params[:employer][:region_ids]
+    @employer.sector_ids = params[:employer][:sector_ids]
 
     respond_to do |format|
       if @training_provider.update_attributes(params[:training_provider])

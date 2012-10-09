@@ -17,10 +17,34 @@
   </div>
   <div class="field">
     <%= f.label :region %><br />
-    <%= f.select(:region, ['South West', 'South East', 'Yorkshire & Humber', 'North East', 'North West', 'East of England', 'East Midlands', 'West Midlands', 'London']) %>
+   
   </div>
 
+  <div class="field">
+    <%#= render "regions" %>
+         <%= hidden_field_tag "training_provider[region_ids][]", "" %>
+     <ul>
+      <% @regions.each do |region| %>
+        <li>
+          <%= check_box_tag "training_provider[region_ids][]", region.id, @training_provider.regions.include?(region) %>
+          <%= h region.name %>
+        </li>
+      <% end %>
+     </ul>
+</div>
 
+  <div class="field">
+    <%#= render "regions" %>
+         <%= hidden_field_tag "training_provider[sector_ids][]", "" %>
+     <ul>
+      <% @sectors.each do |sector| %>
+        <li>
+          <%= check_box_tag "training_provider[sector_ids][]", sector.id, @training_provider.sectors.include?(sector) %>
+          <%= h sector.title %>
+        </li>
+      <% end %>
+     </ul>
+</div>
   <div class="field">
      <%= image_tag(@training_provider.logo_image.url.to_s) if @training_provider.logo_image %>
     <%= f.label :logo_image %> 

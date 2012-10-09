@@ -38,6 +38,19 @@
 </div>
 
   <div class="field">
+    <%#= render "regions" %>
+         <%= hidden_field_tag "employer[sector_ids][]", "" %>
+     <ul>
+      <% @sectors.each do |sector| %>
+        <li>
+          <%= check_box_tag "employer[sector_ids][]", sector.id, @employer.sectors.include?(sector) %>
+          <%= h sector.title %>
+        </li>
+      <% end %>
+     </ul>
+</div>
+
+  <div class="field">
     <%= f.label :employer_description %><br />
     <%= f.text_area :employer_description %>
   </div>

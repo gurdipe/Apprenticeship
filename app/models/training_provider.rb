@@ -7,7 +7,6 @@ class TrainingProvider < ActiveRecord::Base
 
 
 def myregions
-  # myarr = regions
  provider_influences
 end
 

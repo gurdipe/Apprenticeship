@@ -62,7 +62,8 @@ class EmployersController < ApplicationController
   def update
     @employer = Employer.find(params[:id])
     # params[:sector][:sector_ids] ||= []
-    @regions = params[:region][:region_ids] ||= []
+    @employer.region_ids = params[:employer][:region_ids]
+    @employer.sector_ids = params[:employer][:sector_ids]
 
     respond_to do |format|
       if @employer.update_attributes(params[:employer])
