@@ -61,8 +61,8 @@ class EmployersController < ApplicationController
   # PUT /employers/1.json
   def update
     @employer = Employer.find(params[:id])
-    params[:sector][:sector_ids] ||= []
-    params[:region][:region_ids] ||= []
+    # params[:sector][:sector_ids] ||= []
+    @regions = params[:region][:region_ids] ||= []
 
     respond_to do |format|
       if @employer.update_attributes(params[:employer])

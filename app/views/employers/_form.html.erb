@@ -22,10 +22,20 @@
     <%= f.file_field :logo_image %>
   </div>
 
-    <% @regions.each do |region| %>
-    <%= check_box_tag "employer[region_ids][]", region.id %>
-    <%= region.name %>
-  <% end %>
+  
+
+  <div class="field">
+    <%#= render "regions" %>
+         <%= hidden_field_tag "employer[region_ids][]", "" %>
+     <ul>
+      <% @regions.each do |region| %>
+        <li>
+          <%= check_box_tag "employer[region_ids][]", region.id, @employer.regions.include?(region) %>
+          <%= h region.name %>
+        </li>
+      <% end %>
+     </ul>
+</div>
 
   <div class="field">
     <%= f.label :employer_description %><br />
