@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Employer name:</b>
+  <%= @employer.employer_name %>
+</p>
+
+<p>
+  <b>Logo image:</b>
+  <%= @employer.logo_image %>
+</p>
+
+<p>
+  <b>Logo image name:</b>
+  <%= @employer.logo_image_name %>
+</p>
+
+<p>
+  <b>Employer description:</b>
+  <%= @employer.employer_description %>
+</p>
+
+<p>
+  <b>Email address:</b>
+  <%= @employer.email_address %>
+</p>
+
+<p>
+  <b>Contact number:</b>
+  <%= @employer.contact_number %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @employer.position %>
+</p>
+
+<p>
+  <b>Web address:</b>
+  <%= @employer.web_address %>
+</p>
+
+<p>
+  <b>Case study description:</b>
+  <%= @employer.case_study_description %>
+</p>
+
+<p>
+  <b>Case study image:</b>
+  <%= @employer.case_study_image %>
+</p>
+
+<p>
+  <b>Case study image name:</b>
+  <%= @employer.case_study_image_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_employer_path(@employer) %> |
+<%= link_to 'Back', employers_path %>
