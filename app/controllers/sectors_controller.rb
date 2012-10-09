@@ -25,6 +25,7 @@ class SectorsController < ApplicationController
   # GET /sectors/new.json
   def new
     @sector = Sector.new
+    @employers = employers.all
 
     respond_to do |format|
       format.html # new.html.erb
@@ -35,6 +36,8 @@ class SectorsController < ApplicationController
   # GET /sectors/1/edit
   def edit
     @sector = Sector.find(params[:id])
+    @employers = employers.all
+
   end
 
   # POST /sectors
@@ -57,6 +60,7 @@ class SectorsController < ApplicationController
   # PUT /sectors/1.json
   def update
     @sector = Sector.find(params[:id])
+    # params[:employer][:employer_ids] ||= [] 
 
     respond_to do |format|
       if @sector.update_attributes(params[:sector])

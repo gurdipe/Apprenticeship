@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= f.label :employer_name %><br />
-    <%#= f.text_field :employer_name %>
+    <%= f.text_field :employer_name %>
   </div>
 
    <div class="field">
@@ -22,36 +22,32 @@
     <%= f.file_field :logo_image %>
   </div>
 
+    <% @regions.each do |region| %>
+    <%= check_box_tag "employer[region_ids][]", region.id %>
+    <%= region.name %>
+  <% end %>
+
   <div class="field">
     <%= f.label :employer_description %><br />
-    <%#= f.text_area :employer_description %>
+    <%= f.text_area :employer_description %>
   </div>
   <div class="field">
     <%= f.label :email_address %><br />
-    <%#= f.text_field :email_address %>
+    <%= f.text_field :email_address %>
   </div>
   <div class="field">
     <%= f.label :contact_number %><br />
-    <%#= f.text_field :contact_number %>
+    <%= f.text_field :contact_number %>
   </div>
   <div class="field">
     <%= f.label :position %><br />
-    <%#= f.number_field :position %>
+    <%= f.number_field :position %>
   </div>
   <div class="field">
     <%= f.label :web_address %><br />
-    <%#= f.text_field :web_address %>
+    <%= f.text_field :web_address %>
   </div>
-  <div class="field">
-    <%= f.label :case_study_description %><br />
-    <%#= f.text_area :case_study_description %>
-  </div>
-  <div class="field">
-    <%= image_tag(@employer.case_study_image.url.to_s) if @employer.case_study_image %>
-    <%= f.label :case_study_image %><br />
-    <%= f.file_field :case_study_image %>
-  </div>
-
+ 
   <div class="actions">
     <%= f.submit %>
   </div>
