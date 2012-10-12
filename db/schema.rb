@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121009091735) do
+ActiveRecord::Schema.define(:version => 20121009214506) do
 
   create_table "apprenticeship_types", :force => true do |t|
     t.string   "apprenticeship_type"
@@ -24,6 +24,13 @@ ActiveRecord::Schema.define(:version => 20121009091735) do
     t.integer  "sector_id"
   end
 
+  create_table "areas_of_expertises", :force => true do |t|
+    t.integer  "provider_id"
+    t.integer  "sector_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "articles", :force => true do |t|
     t.integer  "type_id"
     t.string   "title"
@@ -33,6 +40,15 @@ ActiveRecord::Schema.define(:version => 20121009091735) do
     t.integer  "discipline_id"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+  end
+
+  create_table "case_studies", :force => true do |t|
+    t.text     "description"
+    t.string   "image"
+    t.string   "image_name"
+    t.integer  "provider_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "choosing_an_apprenticeships", :force => true do |t|
@@ -60,6 +76,13 @@ ActiveRecord::Schema.define(:version => 20121009091735) do
     t.datetime "updated_at",  :null => false
   end
 
+  create_table "employer_sectors", :force => true do |t|
+    t.integer  "employer_id"
+    t.integer  "sector_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "employers", :force => true do |t|
     t.string   "employer_name"
     t.string   "logo_image"
@@ -76,9 +99,37 @@ ActiveRecord::Schema.define(:version => 20121009091735) do
     t.datetime "updated_at",             :null => false
   end
 
+  create_table "locations", :force => true do |t|
+    t.integer  "provider_id"
+    t.integer  "region_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
   create_table "provider_influences", :force => true do |t|
     t.integer  "region_id"
     t.integer  "training_provider_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  create_table "provider_sectors", :force => true do |t|
+    t.integer  "sector_id"
+    t.integer  "training_provider_id"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  create_table "providers", :force => true do |t|
+    t.string   "name"
+    t.string   "logo_image"
+    t.string   "logo_image_name"
+    t.text     "provider_description"
+    t.string   "email_address"
+    t.string   "contact_number"
+    t.integer  "position"
+    t.string   "web_address"
+    t.string   "type"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
   end

@@ -1,7 +1,10 @@
 class TrainingProvider < ActiveRecord::Base
-  attr_accessible :contact_number, :email_address, :region, :logo_image, :position, :provider_description, :provider_name,  :web_address, :regions
+  attr_accessible :region_ids, :sector_ids, :contact_number, :email_address, :region, :logo_image, :position, :provider_description, :provider_name,  :web_address, :regions
   has_many  :provider_influences
   has_many  :regions, :through => :provider_influences 
+
+  has_many  :provider_sectors
+  has_many  :sectors, :through => :provider_sectors
 
   mount_uploader :logo_image, TrainingProviderLogoUploader
 

@@ -17,8 +17,12 @@ attr_accessible :all_clients
 		 # :Articles => Article.all,
 
 		:TrainingProviders => TrainingProvider.all.as_json(
-			only: [:id, :region, :contact_number, :email_address, :position, :provider_description, :provider_name, :web_address],
-			methods: [ :logo_image_url, :logo_image_name, :provider_influences]
+			only: [:id, :contact_number, :email_address, :provider_description, :provider_name, :web_address],
+			methods: [ :logo_image_url, :logo_image_name, :provider_influences, :provider_sectors]
+			),
+		:Employers => Employer.all.as_json(
+			only: [:id, :contact_number, :email_address, :employer_description, :employer_name, :web_address],
+			methods: [:logo_image_url, :logo_image_name, :employer_regions, :employer_sectors],
 			),
 		 :Sectors => Sector.all.as_json(
 		 	only: [:id, :title, :created_at, :updated_at, :sector_description ], 

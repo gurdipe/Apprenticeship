@@ -61,8 +61,8 @@ class TrainingProvidersController < ApplicationController
   # PUT /training_providers/1.json
   def update
     @training_provider = TrainingProvider.find(params[:id])
-    @employer.region_ids = params[:employer][:region_ids]
-    @employer.sector_ids = params[:employer][:sector_ids]
+    @training_provider.region_ids = params[:training_provider][:region_ids]
+    @training_provider.sector_ids = params[:training_provider][:sector_ids]
 
     respond_to do |format|
       if @training_provider.update_attributes(params[:training_provider])
