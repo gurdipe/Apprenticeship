@@ -25,7 +25,7 @@ class SectorsController < ApplicationController
   # GET /sectors/new.json
   def new
     @sector = Sector.new
-    @employers = employers.all
+    # @employers = Employer.all
 
     respond_to do |format|
       format.html # new.html.erb
@@ -36,7 +36,7 @@ class SectorsController < ApplicationController
   # GET /sectors/1/edit
   def edit
     @sector = Sector.find(params[:id])
-    @employers = employers.all
+    # @employers = Employer.all
 
   end
 

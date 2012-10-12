@@ -20,7 +20,7 @@
   </div>
 
 
-  <div class="field">
+  <div class="field" id = 'employer_image'>
   <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
     <%= f.label :small_image %> 
     <%= f.file_field :small_image %>
