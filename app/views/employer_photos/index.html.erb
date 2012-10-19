@@ -12,8 +12,8 @@
 
 <% @employer_photos.each do |employer_photo| %>
   <tr>
-    <td><%= employer_photo.photo %></td>
-    <td><%= employer_photo.caption %></td>
+    <td><%= image_tag(employer_photo.photo.url.to_s, :size => "60x60") if employer_photo.photo  %></td>
+    <td><%= truncate(employer_photo.caption, :length =>50, :separator => ' ') %></td>
     <td><%= employer_photo.employer_id %></td>
     <td><%= link_to 'Show', employer_photo %></td>
     <td><%= link_to 'Edit', edit_employer_photo_path(employer_photo) %></td>

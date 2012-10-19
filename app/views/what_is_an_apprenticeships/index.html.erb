@@ -1,4 +1,4 @@
-<h1>Listing what_is_an_apprenticeships</h1>
+<h1>What is an Apprenticeship</h1>
 
 <table>
   <tr>
@@ -12,20 +12,23 @@
     <th></th>
   </tr>
 
+    <!-- image_tag(training_provider.logo_image.url.to_s, :size => "60x60") -->
+    <!-- truncate(what_is_an_apprenticeship.ten_things, :length =>50, :separator => ' ') -->
+
 <% @what_is_an_apprenticeships.each do |what_is_an_apprenticeship| %>
   <tr>
-    <td><%= what_is_an_apprenticeship.description_detail %></td>
-    <td><%= what_is_an_apprenticeship.what_is_it_like %></td>
-    <td><%= what_is_an_apprenticeship.why_do_one %></td>
-    <td><%= what_is_an_apprenticeship.qualifications %></td>
-    <td><%= what_is_an_apprenticeship.ten_things %></td>
-    <td><%= link_to 'Show', what_is_an_apprenticeship %></td>
-    <td><%= link_to 'Edit', edit_what_is_an_apprenticeship_path(what_is_an_apprenticeship) %></td>
-    <td><%= link_to 'Destroy', what_is_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= truncate(what_is_an_apprenticeship.description_detail, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(what_is_an_apprenticeship.what_is_it_like, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(what_is_an_apprenticeship.why_do_one, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(what_is_an_apprenticeship.qualifications, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(what_is_an_apprenticeship.ten_things, :length =>150, :separator => ' ') %></td>
+    <td><%= link_to 'Show', what_is_an_apprenticeship, :class => "btn btn-mini"  %></td>
+    <td><%= link_to 'Edit', edit_what_is_an_apprenticeship_path(what_is_an_apprenticeship), :class => "btn btn-mini" %></td>
+    <td><%#= link_to 'Destroy', what_is_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New What is an apprenticeship', new_what_is_an_apprenticeship_path %>
+<%#= link_to 'New What is an apprenticeship', new_what_is_an_apprenticeship_path %>

@@ -12,16 +12,17 @@
     <th></th>
   </tr>
 
+
 <% @apprenticeship_types.each do |apprenticeship_type| %>
   <tr>
     <td><%= apprenticeship_type.apprenticeship_type %></td>
-    <td><%= apprenticeship_type.description %></td>
+    <td><%= truncate(apprenticeship_type.description, :length =>50, :separator => ' ') %></td>
     <td><%= apprenticeship_type.job_role %></td>
     <td><%= apprenticeship_type.qualification %></td>
     <td><%= apprenticeship_type.salary %></td>
-    <td><%= link_to 'Show', apprenticeship_type %></td>
-    <td><%= link_to 'Edit', edit_apprenticeship_type_path(apprenticeship_type) %></td>
-    <td><%= link_to 'Destroy', apprenticeship_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', apprenticeship_type , :class => "btn btn-mini" %></td>
+    <td><%= link_to 'Edit', edit_apprenticeship_type_path(apprenticeship_type) , :class => "btn btn-mini" %></td>
+    <td><%= link_to 'Destroy', apprenticeship_type, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-mini btn-danger"  %></td>
   </tr>
 <% end %>
 </table>

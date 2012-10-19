@@ -1,4 +1,4 @@
-<h1>Listing choosing_an_apprenticeships</h1>
+<h1>Choosing an Apprenticeship</h1>
 
 <table>
   <tr>
@@ -13,21 +13,24 @@
     <th></th>
   </tr>
 
+  <!-- truncate(choosing_an_apprenticeship.travel, :length =>50, :separator => ' ')  -->
+
+
 <% @choosing_an_apprenticeships.each do |choosing_an_apprenticeship| %>
   <tr>
-    <td><%= choosing_an_apprenticeship.skills %></td>
-    <td><%= choosing_an_apprenticeship.travel %></td>
-    <td><%= choosing_an_apprenticeship.employers %></td>
-    <td><%= choosing_an_apprenticeship.qualifications %></td>
-    <td><%= choosing_an_apprenticeship.training %></td>
-    <td><%= choosing_an_apprenticeship.money %></td>
-    <td><%= link_to 'Show', choosing_an_apprenticeship %></td>
-    <td><%= link_to 'Edit', edit_choosing_an_apprenticeship_path(choosing_an_apprenticeship) %></td>
-    <td><%= link_to 'Destroy', choosing_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= truncate(choosing_an_apprenticeship.skills, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(choosing_an_apprenticeship.travel, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(choosing_an_apprenticeship.employers, :length =>150, :separator => ' ') %></td>
+    <td><%= truncate(choosing_an_apprenticeship.qualifications, :length =>50, :separator => ' ') %></td>
+    <td><%= truncate(choosing_an_apprenticeship.training, :length =>150, :separator => ' ' )%></td>
+    <td><%= truncate(choosing_an_apprenticeship.money, :length =>150, :separator => ' ') %></td>
+    <td><%= link_to 'Show', choosing_an_apprenticeship , :class => "btn btn-mini" %></td>
+    <td><%= link_to 'Edit', edit_choosing_an_apprenticeship_path(choosing_an_apprenticeship), :class => "btn btn-mini"  %></td>
+    <td><%#= link_to 'Destroy', choosing_an_apprenticeship, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-mini btn-danger"   %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Choosing an apprenticeship', new_choosing_an_apprenticeship_path %>
+<%#= link_to 'New Choosing an apprenticeship', new_choosing_an_apprenticeship_path %>

@@ -10,9 +10,6 @@
     <th>Contact number</th>
     <th>Position</th>
     <th>Web address</th>
-    <th>Case study description</th>
-    <th>Case study image</th>
-    <th>Case study image name</th>
     <th></th>
     <th></th>
     <th></th>
@@ -21,16 +18,13 @@
 <% @employers.each do |employer| %>
   <tr>
     <td><%= employer.employer_name %></td>
-    <td><%= employer.logo_image %></td>
+    <td><%= image_tag(employer.logo_image.url.to_s, :size => "60x60") %></td>
     <td><%= employer.logo_image_name %></td>
-    <td><%= employer.employer_description %></td>
+    <td><%= truncate(employer.employer_description, :length =>50, :separator => ' ') %></td>
     <td><%= employer.email_address %></td>
     <td><%= employer.contact_number %></td>
     <td><%= employer.position %></td>
     <td><%= employer.web_address %></td>
-    <td><%= employer.case_study_description %></td>
-    <td><%= employer.case_study_image %></td>
-    <td><%= employer.case_study_image_name %></td>
     <td><%= link_to 'Show', employer %></td>
     <td><%= link_to 'Edit', edit_employer_path(employer) %></td>
     <td><%= link_to 'Destroy', employer, method: :delete, data: { confirm: 'Are you sure?' } %></td>

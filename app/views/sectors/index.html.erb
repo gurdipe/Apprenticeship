@@ -16,11 +16,11 @@
 
 <% @sectors.each do |sector| %>
   <tr>
-    <td><%= image_tag(sector.small_image.url) %></td>
+    <td><%= image_tag(sector.small_image.url, :size => "60x60") %></td>
     <td><%= sector.title %></td>
     <td><%#= sector.small_image %></td>
     <td><%#= sector.app_types_image %></td>
-    <td><%= image_tag(sector.app_types_image.url) %></td>
+    <td><%= image_tag(sector.app_types_image.url, :size => "60x60") %></td>
     <td><%= link_to 'Show', sector, :class => "btn btn-mini" %></td>
     <td><%= link_to 'Edit', edit_sector_path(sector), :class => "btn btn-mini" %></td>
     <td><%= link_to 'Destroy', sector, method: :delete, data: { confirm: 'Are you sure?' },  :class => "btn btn-mini btn-danger" %></td>
