@@ -6,9 +6,9 @@ class Employer < ActiveRecord::Base
 
   has_many :employer_regions
   has_many :regions, through: :employer_regions
-
   has_many :employer_sectors
   has_many :sectors, through: :employer_sectors
+  has_many :employer_photos
 
 
 def logo_image_url

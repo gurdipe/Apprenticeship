@@ -1,0 +1,30 @@
+<%= form_for(@employer_photo, html: {multipart: true}) do |f| %>
+  <% if @employer_photo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@employer_photo.errors.count, "error") %> prohibited this employer_photo from being saved:</h2>
+
+      <ul>
+      <% @employer_photo.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :employer_id %><br />
+    <%= f.collection_select( :employer_id, Employer.all, :id, :employer_name) %>
+  </div>
+  <div class="field">
+     <%= image_tag(@employer_photo.photo.url.to_s) if @employer_photo.photo %>
+    <%= f.label :photo %> 
+    <%= f.file_field :photo %>
+  </div>
+  <div class="field">
+    <%= f.label :caption %><br />
+    <%= f.text_area :caption %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

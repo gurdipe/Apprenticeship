@@ -1,0 +1,2 @@
+module EmployerPhotosHelper
+end

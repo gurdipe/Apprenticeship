@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Photo:</b>
+  <%= @employer_photo.photo %>
+</p>
+
+<p>
+  <b>Caption:</b>
+  <%= @employer_photo.caption %>
+</p>
+
+<p>
+  <b>Employer:</b>
+  <%= @employer_photo.employer_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_employer_photo_path(@employer_photo) %> |
+<%= link_to 'Back', employer_photos_path %>

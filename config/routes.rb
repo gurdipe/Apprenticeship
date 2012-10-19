@@ -1,4 +1,6 @@
   Apprenticeship::Application.routes.draw do
+  resources :employer_photos
+
   resources :employers
 
   resources :regions
