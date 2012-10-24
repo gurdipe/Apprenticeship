@@ -52,6 +52,7 @@ class LogoImageUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
  def default_url
-    "/images/fallback/" + [version_name, "default_image.png"].compact.join('_')
+    "/images/fallback/default_image.png"
+    # "/images/fallback/" + [version_name, "default_image.png"].compact.join('_')
   end
 end

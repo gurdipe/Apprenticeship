@@ -5,4 +5,12 @@ class Region < ActiveRecord::Base
   
   has_many   :employer_regions
   has_many 	 :employers, through: :employer_regions
+
+
+
+def self.records_since(time)
+  where("created_at > ?", time)
+end
+
+
 end

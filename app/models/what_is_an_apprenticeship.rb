@@ -11,4 +11,8 @@ class WhatIsAnApprenticeship < ActiveRecord::Base
     # t.datetime "updated_at",         :null => false
 
     
+def self.records_since(time)
+  where("created_at > ?", time)
+end
+
 end

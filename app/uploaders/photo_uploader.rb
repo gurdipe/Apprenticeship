@@ -3,7 +3,7 @@
 class PhotoUploader < CarrierWave::Uploader::Base
 
   # Include RMagick or MiniMagick support:
-  # include CarrierWave::RMagick
+  include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
   # Include the Sprockets helpers for Rails 3.1+ asset pipeline compatibility:
@@ -22,9 +22,9 @@ class PhotoUploader < CarrierWave::Uploader::Base
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url
-  #   # For Rails 3.1+ asset pipeline compatibility:
+  # #   # For Rails 3.1+ asset pipeline compatibility:
   #   # asset_path("fallback/" + [version_name, "default.png"].compact.join('_'))
-  #
+  # #
   #   "/images/fallback/" + [version_name, "default.png"].compact.join('_')
   # end
 
@@ -52,7 +52,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
   #   "something.jpg" if original_filename
   # end
    def default_url
-    "/images/fallback/" + [version_name, "default_image.png"].compact.join('_')
+    "/public/fallback/default_image.png"
   end
 
 end

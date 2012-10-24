@@ -6,4 +6,8 @@ class ApprenticeshipType < ActiveRecord::Base
 		description
 	 end
 
+	def self.records_since(time)
+	  where("created_at > ?", time)
+	end
+
 end

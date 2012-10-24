@@ -33,4 +33,9 @@ def name_strip url
 end
 
 
+def self.records_since(time)
+  where("created_at > ?", time)
+end
+
+
 end

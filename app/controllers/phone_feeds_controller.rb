@@ -10,7 +10,11 @@ class PhoneFeedsController < ApplicationController
 	end
 
   def date_since
-			render :text => params[:last_date]
+		records_since = PhoneFeed.records_since params[:last_date]
+		
+		respond_to do |format|
+    	format.json { render :json => records_since }
+  	end
 	end
 
 
