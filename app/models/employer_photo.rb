@@ -1,5 +1,5 @@
 class EmployerPhoto < ActiveRecord::Base
-  attr_accessible :caption, :employer_id, :photo_url, :photo_name, :photo
+  attr_accessible :caption, :employer_id, :photo_url, :photo_name, :photo, :updated_at
   belongs_to :employer
   mount_uploader :photo, PhotoUploader
 #   scope :records_since, lambda { |time| where("updated_at < ?", time) }

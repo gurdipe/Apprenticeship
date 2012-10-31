@@ -1,5 +1,5 @@
 class Region < ActiveRecord::Base
-  attr_accessible :name, :training_providers
+  attr_accessible :name, :training_providers, :updated_at
   has_many   :provider_influences
   has_many 	 :training_providers, through: :provider_influences
   
