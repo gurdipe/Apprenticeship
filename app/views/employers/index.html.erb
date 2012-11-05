@@ -25,9 +25,9 @@
     <td><%= employer.contact_number %></td>
     <td><%= employer.position %></td>
     <td><%= employer.web_address %></td>
-    <td><%= link_to 'Show', employer %></td>
-    <td><%= link_to 'Edit', edit_employer_path(employer) %></td>
-    <td><%= link_to 'Destroy', employer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Show', employer , :class => "btn btn-mini"%></td>
+    <td><%= link_to 'Edit', edit_employer_path(employer) ,:class => "btn btn-mini"%></td>
+    <td><%= link_to 'Destroy', employer, method: :delete, data: { confirm: 'Are you sure?' },:class => "btn btn-mini btn-danger" %></td>
   </tr>
 <% end %>
 </table>

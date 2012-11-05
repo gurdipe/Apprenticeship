@@ -1,4 +1,6 @@
   Apprenticeship::Application.routes.draw do
+  resources :how_to_applies
+
   resources :employer_photos
 
   resources :employers
