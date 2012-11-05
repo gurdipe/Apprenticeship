@@ -1,0 +1,23 @@
+<h1>Listing how_to_applies</h1>
+
+<table>
+  <tr>
+    <th>Content</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @how_to_applies.each do |how_to_apply| %>
+  <tr>
+    <td><%= how_to_apply.content %></td>
+    <td><%= link_to 'Show', how_to_apply %></td>
+    <td><%= link_to 'Edit', edit_how_to_apply_path(how_to_apply) %></td>
+    <td><%= link_to 'Destroy', how_to_apply, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New How to apply', new_how_to_apply_path %>
