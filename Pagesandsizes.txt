@@ -1,17 +1,16 @@
 Pages and sizes:
 HomePage: Icons 87 x 115 (including text)
 
-
 Sector_Selector
 Scrollbar: 226x212px
 TagCloud:  600x500px
 
-Employers:
-Employer Selector
-Image for 69x74px
+Employer Photos
+210x130
 
-Photos:
-105x84px
+Logo images (Employers and Training Providers)
+170x170
+
 
 Background Image for Employers Details View
 320x409px
