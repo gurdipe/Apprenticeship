@@ -19,6 +19,7 @@
    <div class="field">
      <%= image_tag(@employer.logo_image.url.to_s) if @employer.logo_image %>
     <%= f.label :logo_image %> 
+    <%= f.label "Size must be 170x170 px" %> 
     <%= f.file_field :logo_image %>
   </div>
 
@@ -70,7 +71,6 @@
     <%= f.label :web_address %><br />
     <%= f.text_field :web_address %>
   </div>
- 
   <div class="actions">
     <%= f.submit %>
   </div>

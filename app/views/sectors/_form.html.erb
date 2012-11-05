@@ -23,13 +23,15 @@
   <div class="field" id = 'employer_image'>
   <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
     <%= f.label :small_image %> 
+    <%= f.label "Scrollbar Image size must be 226x212px" %>
     <%= f.file_field :small_image %>
   </div>
 
   <div class="field">
   <%= image_tag(@sector.app_types_image.url.to_s) if @sector.app_types_image.url  %>
-    <%= f.label :app_types_image %>
-    <%= f.file_field :app_types_image %>
+  <%= f.label :app_types_image %>
+  <%= f.label "Tag Cloud Image size must be 600x500px" %>
+  <%= f.file_field :app_types_image %>
   </div>
    </div>
 

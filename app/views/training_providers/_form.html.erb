@@ -48,6 +48,7 @@
   <div class="field">
      <%= image_tag(@training_provider.logo_image.url.to_s) if @training_provider.logo_image %>
     <%= f.label :logo_image %> 
+    <%= f.label "Image size must be 170x170px" %> 
     <%= f.file_field :logo_image %>
   </div>
 

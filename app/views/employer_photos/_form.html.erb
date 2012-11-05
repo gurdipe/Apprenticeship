@@ -18,6 +18,7 @@
   <div class="field">
      <%= image_tag(@employer_photo.photo.url.to_s) if @employer_photo.photo %>
     <%= f.label :photo %> 
+        <%= f.label "Size must be 210x130 px" %> 
     <%= f.file_field :photo %>
   </div>
   <div class="field">
