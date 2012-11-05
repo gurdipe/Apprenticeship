@@ -10,6 +10,13 @@ class Employer < ActiveRecord::Base
   has_many :sectors, through: :employer_sectors
   has_many :employer_photos
 
+  # validates :logo_image, presence: :true
+  # validates :employer_name, :presence => {:message => 'Please accept the terms of service'}
+
+  # validates_presence_of :employer_name
+# validates_presence_of :employer_name, :message => "can't be empty"
+
+
 
 def logo_image_url
   	logo_image.url.to_s

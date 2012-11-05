@@ -18,7 +18,7 @@ attr_accessible :all_clients
 			),
 
 		:Employers => Employer.all.as_json(
-			only: [:id, :contact_number, :email_address, :employer_description, :employer_name, :web_address, :updated_at],
+			only: [:id, :position, :contact_number, :email_address, :employer_description, :employer_name, :web_address, :updated_at],
 			methods: [:logo_image_url, :logo_image_name, :employer_regions, :employer_sectors, :employer_photos],
 			),
 		:EmployerPhotos => EmployerPhoto.all.as_json(
@@ -26,7 +26,7 @@ attr_accessible :all_clients
 			methods: [:photo_url, :photo_name],
 			),
 		:TrainingProviders => TrainingProvider.all.as_json(
-			only: [:id, :contact_number, :email_address, :provider_description, :provider_name, :web_address, :updated_at],
+			only: [:id, :position, :contact_number, :email_address, :provider_description, :provider_name, :web_address, :updated_at],
 			methods: [ :logo_image_url, :logo_image_name, :provider_influences, :provider_sectors],
 			),
 	  :Sectors => Sector.all.as_json(

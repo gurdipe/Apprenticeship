@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121030133543) do
+ActiveRecord::Schema.define(:version => 20121104231341) do
 
   create_table "apprenticeship_types", :force => true do |t|
     t.string   "apprenticeship_type"
@@ -98,13 +98,13 @@ ActiveRecord::Schema.define(:version => 20121030133543) do
     t.text     "employer_description"
     t.string   "email_address"
     t.string   "contact_number"
-    t.integer  "position"
+    t.integer  "position",               :default => 1, :null => false
     t.string   "web_address"
     t.text     "case_study_description"
     t.string   "case_study_image"
     t.string   "case_study_image_name"
-    t.datetime "created_at",             :null => false
-    t.datetime "updated_at",             :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
   end
 
   create_table "last_updates", :force => true do |t|
@@ -186,9 +186,9 @@ ActiveRecord::Schema.define(:version => 20121030133543) do
     t.string   "email_address"
     t.string   "web_address"
     t.string   "contact_number"
-    t.integer  "position"
-    t.datetime "created_at",           :null => false
-    t.datetime "updated_at",           :null => false
+    t.integer  "position",             :default => 1, :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
   end
 
   create_table "types_of_apprenticeships", :force => true do |t|

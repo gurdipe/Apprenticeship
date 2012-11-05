@@ -5,6 +5,7 @@ gem 'seed_dump'
 gem 'redactor-rails'
 gem 'rmagick'
 gem "mini_magick"
+# gem "dynamic_form"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
