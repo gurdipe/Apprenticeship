@@ -1,4 +1,3 @@
-    <div class="span4">
 
 <%= form_for(@sector, :html => { :multipart => true }) do |f| %>
   <% if @sector.errors.any? %>
@@ -19,39 +18,29 @@
     <%= f.text_field :title, :class => "input-xlarge" %>
   </div>
 
-
-  <div class="field" id = 'employer_image'>
-  <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
-    <%= f.label :small_image %> 
-    <%= f.label "Scrollbar Image size must be 226x212px" %>
-    <%= f.file_field :small_image %>
-  </div>
-
   <div class="field">
   <%= image_tag(@sector.app_types_image.url.to_s) if @sector.app_types_image.url  %>
   <%= f.label :app_types_image %>
   <%= f.label "Tag Cloud Image size must be 600x500px" %>
   <%= f.file_field :app_types_image %>
   </div>
-   </div>
 
- <div class="span4">
+  <div class="field" id ="employer_image">
+  <%= image_tag(@sector.small_image.url.to_s) if @sector.small_image.url %>
+    <%= f.label :small_image %> 
+    <%= f.label "Scrollbar Image size must be 226x212px" %>
+    <%= f.file_field :small_image %>
+  </div>
+  
   <div class="field">
     <%= f.label :sector_description %><br />
-    <%= f.text_area :sector_description %>
+     <%= f.text_area :sector_description, :class => "redactor" %>
   </div>
-</div>
+
   <div class="actions">
 
-<div class="span2">
-  <%#= f.fields_for :apprenticeship_types do |builder| %>
-    <%#= render 'app_types', :f => builder %>
-  <%# end %>
-
    <%= f.submit   %>
-  </div>
 <% end %>
 
-</div>
 
 
