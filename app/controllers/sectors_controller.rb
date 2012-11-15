@@ -2,7 +2,8 @@ class SectorsController < ApplicationController
   # GET /sectors
   # GET /sectors.json
   def index
-    @sectors = Sector.all
+    @sectors = Sector.all(:order => 'LOWER(title)')
+    # @sectors = Sector.all
 
     respond_to do |format|
       format.html # index.html.erb

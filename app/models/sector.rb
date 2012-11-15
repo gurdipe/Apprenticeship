@@ -4,7 +4,7 @@ class Sector < ActiveRecord::Base
   has_many :apprenticeship_types,  :dependent => :destroy
   accepts_nested_attributes_for :apprenticeship_types, :reject_if => lambda { |a| a[:content].blank? }, :allow_destroy => true
 
-  has_many :employer_sectors
+  has_many :employer_sectors, :dependent => :destroy
   has_many  :employers, through: :employer_sectors
 
   mount_uploader :small_image, SmallIconUploader

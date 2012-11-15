@@ -4,11 +4,11 @@ class Employer < ActiveRecord::Base
   mount_uploader :logo_image, LogoImageUploader
   mount_uploader :case_study_image, CaseStudyImageUploader
 
-  has_many :employer_regions
+  has_many :employer_regions, :dependent => :destroy
   has_many :regions, through: :employer_regions
-  has_many :employer_sectors
+  has_many :employer_sectors, :dependent => :destroy
   has_many :sectors, through: :employer_sectors
-  has_many :employer_photos
+  has_many :employer_photos, :dependent => :destroy
 
 
 def logo_image_url
