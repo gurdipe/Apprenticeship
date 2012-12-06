@@ -17,7 +17,7 @@ attr_accessible :all_clients
 			methods:[:updated_at],
 			),
 		:HowToApply => HowToApply.all.as_json(
-			only: [:id, :content],
+			only: [:id, :help_title, :content],
 			),
 		:Employers => Employer.all.as_json(
 			only: [:id, :position, :contact_number, :email_address, :employer_description, :employer_name, :web_address, :updated_at],
