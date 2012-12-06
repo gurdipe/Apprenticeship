@@ -5,16 +5,22 @@
 
       <ul>
       <% @how_to_apply.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+      <li><%= msg %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="field">
+    <%= f.label "Title" %><br />
+    <%= f.text_field :help_title %>
+  </div>
+
+  <div class="field">
     <%= f.label :content %><br />
     <%= f.text_area :content, :class => "redactor" %>
   </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
