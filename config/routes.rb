@@ -1,4 +1,6 @@
   Apprenticeship::Application.routes.draw do
+  devise_for :users
+  resources :users
   resources :how_to_applies
 
   resources :employer_photos

@@ -5,6 +5,9 @@ gem 'seed_dump'
 gem 'redactor-rails'
 gem 'rmagick'
 gem "mini_magick"
+gem "devise", ">= 2.1.2"
+gem "cancan", ">= 1.6.8"
+gem "rolify", ">= 3.2.0"
 # gem "dynamic_form"
 
 # Bundle edge Rails instead:
