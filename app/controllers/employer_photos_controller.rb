@@ -1,6 +1,7 @@
 class EmployerPhotosController < ApplicationController
   # GET /employer_photos
   # GET /employer_photos.json
+  load_and_authorize_resource
   def index
     @employer_photos = EmployerPhoto.all
 

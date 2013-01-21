@@ -11,7 +11,7 @@
 <body>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
- <div class="container">
+ <!-- <div class="container"> -->
 
 	<div class="navbar">
     <div class="navbar-inner">
@@ -22,7 +22,7 @@
     <%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %>
     </li>
     <li>
-    <%= link_to 'Edit account', edit_user_registration_path %>
+    <%#= link_to 'Edit account', edit_user_registration_path %>
     </li>
     <% if current_user.has_role? :admin %>
       <li>
@@ -53,6 +53,6 @@
 
 
 <%= yield %>
- </div>
+ <!-- </div>  container -->
 </body>
 </html>

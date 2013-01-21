@@ -1,8 +1,14 @@
 <h2>Register User</h2>
  
-<%= form_for(@user) do |f| %>
-  <%= error_messages(@user,"Could not register user") %>
- 
+<%= simple_form_for(@user) do |f| %>
+<% if @user.errors.any? %>
+  <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>
+
   <%= render :partial => 'user_fields', :locals => { :f => f } %>
  
   <p><%= f.label :password %></p>

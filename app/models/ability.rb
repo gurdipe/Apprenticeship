@@ -8,6 +8,10 @@ class Ability
       if user.has_role? :admin
         can :manage, :all
       end
+
+      if user.has_role? :editor
+        can :manage, :all
+      end
     #
     # The first argument to `can` is the action you are giving the user permission to do.
     # If you pass :manage it will apply to every action. Other common actions here are
