@@ -68,6 +68,17 @@ Apprenticeship::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
 
+config.action_mailer.smtp_settings = {
+   
+   :address             => 'smtp.gmail.com',
+   :port                        => 587,
+   :domain              => 'perfectworkflowsmailer.com',
+   :user_name           => 'perfectworkflowsmailer@gmail.com',
+   :password            => '79TheCrossways',
+   :authentication      => 'plain',
+   :enable_starttls_auto => true
+
+  }
 
 
 

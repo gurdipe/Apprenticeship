@@ -9,13 +9,26 @@
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
-
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
  <div class="container">
 
 	<div class="navbar">
     <div class="navbar-inner">
     <%= link_to 'Home', root_path , :class => "brand"%>
     <ul class="nav">
+      <% if user_signed_in? %>
+    <li>
+    <%= link_to 'Logout', destroy_user_session_path, :method=>'delete' %>
+    </li>
+    <li>
+    <%= link_to 'Edit account', edit_user_registration_path %>
+    </li>
+    <% if current_user.has_role? :admin %>
+      <li>
+      <%= link_to 'Admin', users_path %>
+    </li>
+      <% end %>
     <li class = "<%= 'active' if params[:controller] == 'how_to_applies' %>"><%= link_to 'How to Apply', how_to_applies_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'sectors' %>"><%= link_to 'Sectors', sectors_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'apprenticeship_types' %>"><%= link_to 'Types of Apprenticeships', apprenticeship_types_path %></li>
@@ -24,6 +37,14 @@
     <li class = "<%= 'active' if params[:controller] == 'training_providers' %>"><%= link_to 'Training Providers', training_providers_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'employers' %>"><%= link_to 'Employers', employers_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'employer_photos' %>"><%= link_to 'Employer Photos', employer_photos_path %></li>
+
+  <% else %>
+    <li>
+    <%= link_to 'Login', new_user_session_path %>
+    </li>
+  <% end %>
+
+
 
     </ul>
     </div>

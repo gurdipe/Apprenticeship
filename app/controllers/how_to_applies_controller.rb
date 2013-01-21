@@ -1,6 +1,7 @@
 class HowToAppliesController < ApplicationController
   # GET /how_to_applies
   # GET /how_to_applies.json
+  load_and_authorize_resource
   def index
     @how_to_applies = HowToApply.all
 

@@ -1,0 +1,26 @@
+<h3>Users</h3>
+<div class="span8">
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Registered</th>
+      <th>Role</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+ <% @users.each do |u| %>
+  <tr>
+    <td><%= link_to_if(can?(:read, User), "#{u.name}", user_path(u.id)) {} %></td>
+    <td><%= "#{u.email}" %></td>
+    <td><%= "#{u.roles.collect{|r| r.name}}" %></td>
+    <td><%= link_to_if(can?(:edit, User), image_tag("/images/edit_icon.gif"), edit_user_path(u.id)) {} %></td>
+    <td><%= link_to_if(can?(:delete, u), image_tag("/images/delete_icon.gif"), u, :confirm => "Are you sure?", :method => :delete) {} %></td>
+  </tr>
+<% end %>
+  </tbody>
+</table>
+</div>
