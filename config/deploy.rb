@@ -1,4 +1,4 @@
-# require "bundler/capistrano"
+require "bundler/capistrano"
 # require 'capistrano/ext/multistage'
 
 
@@ -15,7 +15,7 @@
 set :application, "apprentice"
 set :scm, :git
 set :deploy_via, :copy
-set :repository,  "ssh://gitolite@78.129.181.26:2212/bb_rails_apprenticeship_guide"
+set :repository,  "ssh://gitolite@78.129.181.26:2213/bb_rails_apprenticeship_guide"
 set :branch, "master"
 
 set :user, 'apprentice'
