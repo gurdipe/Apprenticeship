@@ -1,6 +1,7 @@
 class ApprenticeshipTypesController < ApplicationController
   # GET /apprenticeship_types
   # GET /apprenticeship_types.json
+  load_and_authorize_resource
   def index
     @apprenticeship_types = ApprenticeshipType.all
 

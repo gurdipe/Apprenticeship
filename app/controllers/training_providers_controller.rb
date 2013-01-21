@@ -1,6 +1,7 @@
 class TrainingProvidersController < ApplicationController
   # GET /training_providers
   # GET /training_providers.json
+  load_and_authorize_resource
   def index
     @training_providers = TrainingProvider.all
 

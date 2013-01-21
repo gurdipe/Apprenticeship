@@ -1,6 +1,9 @@
 class SectorsController < ApplicationController
   # GET /sectors
   # GET /sectors.json
+
+    load_and_authorize_resource
+    
   def index
     @sectors = Sector.all(:order => 'LOWER(title)')
     # @sectors = Sector.all

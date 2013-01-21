@@ -1,6 +1,7 @@
 class EmployersController < ApplicationController
   # GET /employers
   # GET /employers.json
+  load_and_authorize_resource
   def index
     @employers = Employer.all
 

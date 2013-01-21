@@ -12,19 +12,15 @@
     </tr>
   </thead>
   <tbody>
-  <% @users.each do |user| %>
-    <tr>
-      <td><%= link_to user.name, user %></td>
-      <td><%= user.email %></td>
-      <td><%= user.created_at.to_date %></td>
-      <td><%= user.roles.first.name.titleize unless user.roles.first.nil? %></td>
-      <td>
-        <a data-toggle="modal" href="#role-options-<%= user.id %>" class="btn btn-mini" type="button">Change role</a>
-        <%= render user %>
-      </td>
-      <td><%= link_to("Delete user", user_path(user), :data => { :confirm => "Are you sure?" }, :method => :delete, :class => 'btn btn-mini') unless user == current_user %></td>
-    </tr>
-  <% end %>
+ <% @users.each do |u| %>
+  <tr>
+    <td><%= link_to_if(can?(:read, User), "#{u.name}", user_path(u.id)) {} %></td>
+    <td><%= "#{u.email}" %></td>
+    <td><%= "#{u.roles.collect{|r| r.name}}" %></td>
+    <td><%= link_to_if(can?(:edit, User), image_tag("/images/edit_icon.gif"), edit_user_path(u.id)) {} %></td>
+    <td><%= link_to_if(can?(:delete, u), image_tag("/images/delete_icon.gif"), u, :confirm => "Are you sure?", :method => :delete) {} %></td>
+  </tr>
+<% end %>
   </tbody>
 </table>
 </div>
