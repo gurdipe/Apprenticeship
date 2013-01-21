@@ -1,23 +1,25 @@
   Apprenticeship::Application.routes.draw do
+ 
+  authenticated :user do
+  # root :to => 'home#index'
+    root :to => 'static_pages#home'
+  end
+  root :to => "static_pages#home"
   devise_for :users
   resources :users
-  resources :how_to_applies
+  resources  :how_to_applies
+  resources  :employer_photos
+  resources  :employers
+  resources  :regions
+  resources  :training_providers
 
-  resources :employer_photos
+  resources  :choosing_an_apprenticeships
 
-  resources :employers
+  resources  :what_is_an_apprenticeships
 
-  resources :regions
+  resources  :sectors
 
-  resources :training_providers
-
-  resources :choosing_an_apprenticeships
-
-  resources :what_is_an_apprenticeships
-
-  resources :sectors
-
-  resources :apprenticeship_types
+  resources  :apprenticeship_types
 
   mount RedactorRails::Engine => '/redactor_rails'
 

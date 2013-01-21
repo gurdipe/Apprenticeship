@@ -15,7 +15,7 @@ attr_accessible :all_clients
 		:Settings => LastUpdate.new.as_json(
 			only: [],
 			methods:[:updated_at],
-			),
+			),		
 		:HowToApply => HowToApply.all.as_json(
 			only: [:id, :help_title, :content],
 			),
@@ -49,14 +49,15 @@ attr_accessible :all_clients
 			only: [:id, :name, :updated_at ],
 			),
 			}
-
-		 
-
 	end
 
 	def records_since time
 				 test = {
 		 
+		:Settings => LastUpdate.new.as_json(
+			only: [],
+			methods:[:updated_at],
+			),
 		:Employers => Employer.records_since(time).as_json(
 			only: [:id, :contact_number, :email_address, :employer_description, :employer_name, :web_address, :updated_at],
 			methods: [:logo_image_url, :logo_image_name, :employer_regions, :employer_sectors, :employer_photos],
