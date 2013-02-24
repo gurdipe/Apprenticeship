@@ -1,5 +1,9 @@
 class Sector < ActiveRecord::Base
-  attr_accessible :app_types_image, :sector_description, :small_image, :title, :apprenticeship_types, :job_role, :qualification, :salary, :sector_id
+  attr_accessible :app_types_image, :sector_description, :small_image, :title, 
+  :apprenticeship_types, :job_role, :qualification, :salary, :sector_id,
+  :print_description, :qualities, :useful_contacts
+
+
 
   has_many :apprenticeship_types,  :dependent => :destroy
   accepts_nested_attributes_for :apprenticeship_types, :reject_if => lambda { |a| a[:content].blank? }, :allow_destroy => true

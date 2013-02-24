@@ -38,6 +38,55 @@
     <%= f.label :salary %><br />
     <%= f.text_field :salary %>
   </div>
+
+    <div class="field">
+    <%= f.label :print_title %>
+    <%= f.text_field :print_title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :print_salary %>
+    <%= f.text_field :print_salary %>
+  </div>
+
+  <div class="field">
+    <%= f.label :print_description %><br />
+    <%= f.text_area :print_description, :class => "redactor"%>
+  </div>
+
+    <div class="field">
+    <%= f.label :print_qualification %><br />
+    <%= f.text_area :print_qualification, :class => "redactor"%>
+  </div>
+
+
+    <div class="field">
+    <%= f.label :print_job_role %><br />
+    <%= f.text_area :print_job_role, :class => "redactor"%>
+  </div>
+
+    <div class="field">
+    <%= f.label :issuing_authority %>
+    <%= f.text_field :issuing_authority %>
+  </div>
+
+    <div class="field">
+    <%= f.label :new %>
+    <%= f.text_field :new %>
+  </div>
+
+  <div class="field">
+    <%= f.label :revised %>
+    <%= f.text_field :revised %>
+  </div>
+
+  <div class="field">
+    <%= f.label :higher_apprenticeship %>
+    <%= f.text_field :higher_apprenticeship %>
+  </div>
+  <!-- :print_title, :print_description, :print_qualification, :print_job_role,
+  :issuing_authority, :new, :revised, :higher_apprenticeship, :print_salary
+  -->
   <div class="actions">
     <%= f.submit %>
   </div>

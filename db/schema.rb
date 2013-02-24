@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130116112815) do
+ActiveRecord::Schema.define(:version => 20130224213231) do
 
   create_table "apprenticeship_types", :force => true do |t|
     t.string   "apprenticeship_type"
@@ -19,9 +19,18 @@ ActiveRecord::Schema.define(:version => 20130116112815) do
     t.string   "job_role"
     t.string   "qualification"
     t.string   "salary"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
     t.integer  "sector_id"
+    t.string   "print_title"
+    t.text     "print_description"
+    t.text     "print_qualification"
+    t.text     "print_job_role"
+    t.string   "issuing_authority"
+    t.string   "new"
+    t.string   "revised"
+    t.string   "higher_apprenticeship"
+    t.string   "print_salary"
   end
 
   create_table "articles", :force => true do |t|
@@ -157,6 +166,9 @@ ActiveRecord::Schema.define(:version => 20130116112815) do
     t.text     "sector_description"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.text     "print_description"
+    t.string   "qualities"
+    t.text     "useful_contacts"
   end
 
   create_table "training_providers", :force => true do |t|
