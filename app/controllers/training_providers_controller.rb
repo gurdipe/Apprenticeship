@@ -19,6 +19,7 @@ class TrainingProvidersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @training_provider }
+      format.xml { render xml: @training_provider }
     end
   end
 

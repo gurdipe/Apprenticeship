@@ -19,6 +19,8 @@ class EmployersController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @employer }
+      format.xml { render xml: @employer }
+
     end
   end
 

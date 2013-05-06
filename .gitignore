@@ -11,5 +11,5 @@ bundler_stubs/
 public/uploads
 public/ckeditor_assets
 public/system/redactor_assets
-
+backups
 #app/assets/images/static_images

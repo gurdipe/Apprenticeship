@@ -22,6 +22,8 @@ class SectorsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @sector }
+      format.xml { render xml: @sector }
+
     end
   end
 
