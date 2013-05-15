@@ -19,6 +19,8 @@ class ApprenticeshipTypesController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @apprenticeship_type }
+      format.xml { render xml: @apprenticeship_type  }
+
     end
   end
 
