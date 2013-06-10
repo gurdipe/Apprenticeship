@@ -1,0 +1,65 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Heading:</b>
+  <%= @case_study.heading %>
+</p>
+
+<p>
+  <b>Sector:</b>
+  <%= @case_study.sector_id %>
+</p>
+
+<p>
+  <b>Company name:</b>
+  <%= @case_study.company_name %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @case_study.title %>
+</p>
+
+<p>
+  <b>Standfirst:</b>
+  <%= @case_study.standfirst %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @case_study.description %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%= @case_study.website %>
+</p>
+
+<p>
+  <b>Hyperlink:</b>
+  <%= @case_study.hyperlink %>
+</p>
+
+<p>
+  <b>Email address:</b>
+  <%= @case_study.email_address %>
+</p>
+
+<p>
+  <b>Telephone number:</b>
+  <%= @case_study.telephone_number %>
+</p>
+
+<p>
+  <b>Logo image:</b>
+  <%= @case_study.logo_image %>
+</p>
+
+<p>
+  <b>Photo:</b>
+  <%= @case_study.photo %>
+</p>
+
+
+<%= link_to 'Edit', edit_case_study_path(@case_study) %> |
+<%= link_to 'Back', case_studies_path %>

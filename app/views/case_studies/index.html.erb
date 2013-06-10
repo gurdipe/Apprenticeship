@@ -1,0 +1,45 @@
+<h1>Listing case_studies</h1>
+
+<table>
+  <tr>
+    <th>Heading</th>
+    <th>Sector</th>
+    <th>Company name</th>
+    <th>Title</th>
+    <th>Standfirst</th>
+    <th>Description</th>
+    <th>Website</th>
+    <th>Hyperlink</th>
+    <th>Email address</th>
+    <th>Telephone number</th>
+    <th>Logo image</th>
+    <th>Photo</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @case_studies.each do |case_study| %>
+  <tr>
+    <td><%= case_study.heading %></td>
+    <td><%= case_study.sector_id %></td>
+    <td><%= case_study.company_name %></td>
+    <td><%= case_study.title %></td>
+    <td><%= case_study.standfirst %></td>
+    <td><%= case_study.description %></td>
+    <td><%= case_study.website %></td>
+    <td><%= case_study.hyperlink %></td>
+    <td><%= case_study.email_address %></td>
+    <td><%= case_study.telephone_number %></td>
+    <td><%= case_study.logo_image %></td>
+    <td><%= case_study.photo %></td>
+    <td><%= link_to 'Show', case_study %></td>
+    <td><%= link_to 'Edit', edit_case_study_path(case_study) %></td>
+    <td><%= link_to 'Destroy', case_study, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Case study', new_case_study_path %>

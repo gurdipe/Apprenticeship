@@ -1,5 +1,8 @@
   Apprenticeship::Application.routes.draw do
  
+  resources :case_studies
+
+
   authenticated :user do
   # root :to => 'home#index'
     root :to => 'static_pages#home'

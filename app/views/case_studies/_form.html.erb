@@ -1,0 +1,23 @@
+<%= simple_form_for(@case_study, :html => { :multipart => true }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :heading %>
+    <%= f.association :sector%>
+    <%= f.input :company_name %>
+    <%= f.input :title %>
+    <%= f.input :standfirst , as: :text  %>
+    <%= f.input :description , as: :text %>
+    <%= f.input :website %>
+    <%= f.input :hyperlink %>
+    <%= f.input :email_address %>
+    <%= f.input :telephone_number %>
+    <%= image_tag(@case_study.logo_image_url.to_s)  %>
+    <%= f.input :logo_image %>
+    <%= f.input :photo %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
