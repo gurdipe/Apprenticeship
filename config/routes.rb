@@ -32,11 +32,15 @@
 
   resources :types_of_apprenticeships
 
+  resources :apprenticeship_types do
+    member do
+      get 'render_to_word'
+    end
+  end
+
   resources :articles
   resources :types_of_jobs
-
-
-    resources :phone_feeds, :only => [ :index ] do
+  resources :phone_feeds, :only => [ :index ] do
 
     end
 

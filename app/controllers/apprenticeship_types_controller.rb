@@ -20,6 +20,14 @@ class ApprenticeshipTypesController < ApplicationController
       format.html # show.html.erb
       format.json { render json: @apprenticeship_type }
       format.xml { render xml: @apprenticeship_type  }
+      # format.docx { render word: @apprenticeship_type  }
+      # file = Rails.root.join("public","resources", "test.docx");
+      format.docx { send_file @apprenticeship_type.render_to_word, :disposition => 'attachment'  }
+      # format.docx { send_data @apprenticeship_type.render_to_word(), :disposition => 'attachment'  }
+
+      # "#{RAILS_ROOT}/public/resources/newdoc.docx",
+      # :filename=> "newdoc.docx",
+      # :type=>mime_type)
 
     end
   end
@@ -83,4 +91,6 @@ class ApprenticeshipTypesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+ 
 end
