@@ -26,7 +26,7 @@ default_run_options[:pty] = true
 
 
 server "37.128.189.139", :app, :web, :db, :primary => true
-after "deploy:update_code", "deploy:migrate"
+# after "deploy:update_code", "deploy:migrate"
 load 'deploy/assets'
 
 namespace :deploy do  
