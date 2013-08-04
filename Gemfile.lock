@@ -35,7 +35,7 @@ GEM
       sass (~> 3.2)
     builder (3.0.4)
     cancan (1.6.9)
-    capistrano (2.15.5)
+    capistrano (2.14.2)
       highline
       net-scp (>= 1.0.0)
       net-sftp (>= 2.0.0)
@@ -155,7 +155,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   cancan (>= 1.6.8)
-  capistrano
+  capistrano (= 2.14.2)
   carrierwave
   coffee-rails (~> 3.2.1)
   devise (>= 2.1.2)
