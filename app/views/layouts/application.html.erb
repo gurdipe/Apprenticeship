@@ -37,7 +37,7 @@
     <li class = "<%= 'active' if params[:controller] == 'training_providers' %>"><%= link_to 'Training Providers', training_providers_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'employers' %>"><%= link_to 'Employers', employers_path %></li>
     <li class = "<%= 'active' if params[:controller] == 'employer_photos' %>"><%= link_to 'Employer Photos', employer_photos_path %></li>
-
+    <li class = "<%= 'active' if params[:controller] == 'case_studies' %>"><%= link_to 'Case Studies', case_studies_path %></li>
   <% else %>
     <li>
     <%= link_to 'Login', new_user_session_path %>

@@ -28,7 +28,6 @@
     <td><%= link_to 'Edit', edit_apprenticeship_type_path(apprenticeship_type) , :class => "btn btn-mini" %></td>
     <td><%#= link_to 'Word', apprenticeship_type %> </td>
     <td><%= link_to 'Word',  apprenticeship_type_path(apprenticeship_type, :format => :docx  ), :class => "btn btn-mini"  %> </td>
-    <td><%= link_to 'Edit', edit_apprenticeship_type_path(apprenticeship_type) , :class => "btn btn-mini" %></td>
     <td><%= link_to 'Destroy', apprenticeship_type, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-mini btn-danger"  %></td>
   </tr>
 <% end %>
