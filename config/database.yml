@@ -11,9 +11,9 @@
 
 development:
   adapter: mysql2
-  database: apprentice
-  username: apprentice
-  password: barkerbrooks
+  database:	yourDBName 
+  username: yourDBUname	
+  password: yourDBpw
   pool: 5
   timeout: 5000
 
