@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130516091143) do
+ActiveRecord::Schema.define(:version => 20130224213231) do
 
   create_table "apprenticeship_types", :force => true do |t|
     t.string   "apprenticeship_type"
@@ -81,10 +81,10 @@ ActiveRecord::Schema.define(:version => 20130516091143) do
 
   create_table "employer_photos", :force => true do |t|
     t.string   "photo"
-    t.text     "caption",     :limit => 255
+    t.text     "caption"
     t.integer  "employer_id"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "employer_regions", :force => true do |t|

@@ -1,7 +1,0 @@
----
-fallback/default_image.png: fallback/default_image-906ecec7931f26e3cdfe7d63160c1e2b.png
-rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
-application.js: application-b03d2c5460988c184baf83bd810483d0.js
-application.css: application-76da50d2e94f3c6d454d88be519bd869.css
-glyphicons-halflings-white.png: glyphicons-halflings-white-13553a5bf21ae3cc374006592488ec64.png
-glyphicons-halflings.png: glyphicons-halflings-ab3144065a860d198f1d7d9a4882640c.png

@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'seed_dump'
 gem 'redactor-rails'
 gem 'rmagick'
+#gem 'rmagick-win32'
 gem "mini_magick"
 gem "devise", ">= 2.1.2"
 gem "cancan", ">= 1.6.8"
@@ -18,8 +19,11 @@ gem 'letter_opener'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'carrierwave'
-gem 'bootstrap-sass'
-gem 'rubyzip'
+#gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 2.3.1.0'
+gem 'rubyzip', '< 1.0.0'
+
+gem 'bootstrap-sass', '~> 2.3.1.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,7 +32,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  #gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
