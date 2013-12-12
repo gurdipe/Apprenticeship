@@ -36,7 +36,9 @@ test:
 
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: mysql2
+  database:	apprentice
+  username: root
+  password: phavan01
   pool: 5
   timeout: 5000

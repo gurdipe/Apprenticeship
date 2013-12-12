@@ -20,7 +20,9 @@
     <data-source source="LOCAL" name="Rails bb_app_guide_copy: production" uuid="8e6a38ad-99d1-418c-9916-a2953af4c232">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Gurdipe\Code\bb_app_guide_copy\db\production.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/apprentice</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdadfc2dfcbdfdcdfcbdfc4df9adf9b</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="MySQL - @localhost" uuid="86666ff9-90a2-4a01-a256-d69470ddaee3">
