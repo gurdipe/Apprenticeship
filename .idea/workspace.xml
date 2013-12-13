@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb6812-b4df-446c-bc3d-76ecf2902d66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/apprentice_prod3.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/apprentice_prod4.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/apprentice_prod2.sql" afterPath="$PROJECT_DIR$/db/apprentice_prod2.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bb_app_guide_copy.iml" afterPath="$PROJECT_DIR$/.idea/bb_app_guide_copy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bb_app_guide_copy.iws" />
@@ -96,7 +89,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16490" max-vertical-offset="18377">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="16490" max-vertical-offset="18326">
               <folding />
             </state>
           </provider>
@@ -111,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="9" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="3230">
+            <state line="83" column="0" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.33235294" vertical-offset="1298" max-vertical-offset="3162">
               <folding />
             </state>
           </provider>
@@ -129,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="45704" selection-end="45704" vertical-scroll-proportion="0.62215906" vertical-offset="512" max-vertical-offset="952">
+            <state line="43" column="0" selection-start="45704" selection-end="45704" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -171,12 +164,12 @@
         <option value="dbtable:/c13686e9/86666ff9-90a2-4a01-a256-d69470ddaee3/apprentice..apprenticeship_types" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/doc/README_FOR_APP" />
-        <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/apprentice_prod2.sql" />
         <option value="$PROJECT_DIR$/db/apprentice_prod3.sql" />
         <option value="$PROJECT_DIR$/db/apprentice_prod4.sql" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
       </list>
     </option>
   </component>
@@ -713,7 +706,11 @@
       <created>1386925546545</created>
       <updated>1386925546545</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="merging&#10;">
+      <created>1386949040265</created>
+      <updated>1386949040265</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1004,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="9" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="3230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1065,7 +1055,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="45704" selection-end="45704" vertical-scroll-proportion="0.62215906" vertical-offset="512" max-vertical-offset="952">
+        <state line="43" column="0" selection-start="45704" selection-end="45704" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.33235294" vertical-offset="1298" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>
