@@ -9,7 +9,6 @@ tmp/
 bundler_stubs/
 *.sublime-project
 *.sublime-workspace
-public/uploads
 public/ckeditor_assets
 public/system/redactor_assets
 backups
