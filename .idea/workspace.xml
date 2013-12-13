@@ -2,8 +2,195 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3eb6812-b4df-446c-bc3d-76ecf2902d66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/types_of_apprenticeship/small_icon/2/2012-08-04_00.01.20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/types_of_apprenticeship/small_icon/3/2012-08-04_15.18.11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/34/Acca_logo_retry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/25/Acca_logo_retry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/12/Agricultural_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/12/Agriculture_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/50/AirBus_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/1/ApplyForJob__TrainingProviders.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/types_of_apprenticeship/small_icon/3/Art.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/15/AskhamBryan_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/13/AskhamBryan_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/43/BAM_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/25/BII_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/32/BITA_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/23/BITA_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/53/BPP_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/38/BPP_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/56/BP_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/48/BT_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/16/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/17/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/18/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/19/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/20/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/21/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/22/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/23/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/20/Babcock_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/13/Beauty_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/13/Beauty_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/50/BexleyLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/28/BirminghamMet_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/35/Bournville_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/10/Bournville_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/58/BritishMarine_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/26/BritishSugar_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/30/BritishSugar_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/1/BusinessIT_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/1/BusinessIT_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/18/Capgemini_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/19/Capgemini_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/20/Capgemini_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/5/Capgemini_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/5/Capgemini_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/68/CareersInRacing_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/43/CareersInRacing_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/32/CentralSussex_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/3/Charity_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/3/Charity_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/21/Charnwood_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/22/Charnwood_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/23/Charnwood_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/11/Charnwood_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/41/Charnwood_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/73/Connect2care_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/56/Connect2care_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/2/Construction_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/2/Construction_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/37/Craven_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/12/Craven_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/20/Creative_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/20/Creative_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/22/CustomerService_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/22/CustomerService_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/17/DerbyCollege_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/33/DiscoverRisk_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/24/DiscoverRisk_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/14/Doncaster_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/11/Doncaster_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/49/EDF_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/42/EQL_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/18/Energy_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/18/Energy_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/17/Engineering_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/17/Engineering_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/55/FDF_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/60/FITtraining_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/6/Finance_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/6/Finance_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/69/First4Skills.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/47/First4Skills.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/70/Getmyjob.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/48/Getmyjob.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/44/Grantham_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/11/Healthcare_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/11/Healthcare_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/54/Helpyouchoose_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/74/Hit_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/57/Hit_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/29/ICAEW_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/18/ICAEW_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/52/IET_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/61/IMI_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/2/InfoButton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/1/InfoButton_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/39/Lantra_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/28/LeedsCollegeofBuilding_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/16/LeedsCollegeofBuilding_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/12/Leeds_College_of_Building_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/13/Leeds_College_of_Building_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/14/Leeds_College_of_Building_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/6/Lovell_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/7/Lovell_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/8/Lovell_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/8/Lovell_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/29/Lovell_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/16/Manufacturing_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/16/Manufacturing_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/15/Marine_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/15/Marine_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/9/NationalGrid_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/24/National_Grid_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/25/National_Grid_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/26/National_Grid_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/64/NetworkRail_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/13/NewtonRigg_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/8/NewtonRigg_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/71/Next_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/31/Northbrook_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/36/Paragon_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/27/Paragon_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/21/Peterborough_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/2/Picture_of_me_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/1/Picture_of_me_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/1/Picture_of_me_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/66/QA_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/39/QA_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/72/RemitITacademy_Logo_app_.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/55/RemitITacademy_Logo_app_.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/34/RemitTraining_Logo_app_.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/63/Remit_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/51/RollsRoyce_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/10/RoyalNavy_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/36/RoyalNavy_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/17/Royal_Fleet_Auxiliary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/16/Royal_Marines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/15/Royal_Navy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/49/SHEFFIELDCOLLEGE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/31/SWAC_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/22/SWAC_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/53/Shipley_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/59/Shipsafe_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/54/SkillsForSecurity_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/27/Skills_for_Care_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/28/Skills_for_Care_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/29/Skills_for_Care_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/30/SkillsforCare_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/19/SkillsforCare_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/26/SouthNotts_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/33/SouthThames_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/27/SportStructures_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/14/Sport_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/14/Sport_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/51/SussexCoast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/52/SwindonCollege.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/65/TAA_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/35/TAA_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/12/TTE_NEW_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/9/TTE_NEW_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/67/ThathamResearch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/40/ThathamResearch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/62/TransportForLondon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/4/TravelHospitality_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/4/Travel_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/15/Truro_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/40/Truro_logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/57/UKSA_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/37/UKSA_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/14/Uxbridge_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/5/Vehicles_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/5/Vehicles_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/6/VirginMedia_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/6/VirginMedia_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/46/Walford_and_North_Shropshire_College.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/45/Wigan_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/7/YHTraining_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/1/YHTraining_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/9/YH_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/10/YH_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/11/YH_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/types_of_apprenticeship/sector_image/3/art_creative.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/1/background_without.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/1/glass_worker_sml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/organisation_photo/photo/1/green_tick_button30_70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/organisation/logo_image/2/helplink_Flame_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/organisation/logo_image/3/helplink_Flame_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/organisation/organisation_image/3/images.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/2/reception_sml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer_photo/photo/3/sawing_sml.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bb_app_guide_copy.iws" />
@@ -114,19 +301,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="5" column="4" selection-start="49" selection-end="49" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="31" selection-start="45668" selection-end="45668" vertical-scroll-proportion="0.5255682" vertical-offset="512" max-vertical-offset="952">
+            <state line="41" column="31" selection-start="45668" selection-end="45668" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -785,7 +972,11 @@
       <created>1386949130035</created>
       <updated>1386949130035</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="merging&#10;">
+      <created>1386952684003</created>
+      <updated>1386952684003</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1125,13 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="842" selection-end="842" vertical-scroll-proportion="-4.52" vertical-offset="465" max-vertical-offset="3162">
@@ -1141,7 +1325,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="45668" selection-end="45668" vertical-scroll-proportion="0.5255682" vertical-offset="512" max-vertical-offset="952">
+        <state line="41" column="31" selection-start="45668" selection-end="45668" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="49" selection-end="49" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="365">
           <folding />
         </state>
       </provider>
