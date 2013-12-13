@@ -30,3 +30,22 @@ Article.create([
   { :type_id => 1, :title => "Find an Apprenticeship", :small_content => "You can find out more about the different industry sectors by clicking the links on the left., or go directly to the employers by clicking on the following links. Remember, anyone featured on this site wants to hear from you!\r\n\r\n    Agricultural and Land Based Industries\r\n    Beauty and Well Being\r\n    Business and IT\r\n    Construction\r\n    Charities and Volunteering\r\n    Creative, Media and Arts\r\n    Customer Service and Retail\r\n    Energy\r\n    Engineering and Electrical\r\n    Finance\r\n    Health, Care and Public Services\r\n    Manufacturing, Processing and Logistics\r\n    Marine\r\n    Sport & Fitness\r\n    Travel and Hospitality\r\n    Vehicles & Transport\r\n\r\nContact the Sector Skills Councils if you want more information on working in their field - they're responsible for raising the profiles of the industries they represent:\r\n\r\n    http://www.sscalliance.org/Home-Public/SectorSkillsCouncils/SSC_Contacts.aspx\r\n", :full_content => "", :discipline_id => 0, :created_at => "2012-07-20 02:04:30", :updated_at => "2012-07-20 02:04:30", :article_type => nil }
 ], :without_protection => true )
 
+#if Rails.env.production?
+#  connection = ActiveRecord::Base.connection
+#  connection.tables.each do |table|
+#    connection.execute("TRUNCATE #{table}") unless table == "schema_migrations"
+#  end
+#
+#  # - IMPORTANT: SEED DATA ONLY
+#  # - DO NOT EXPORT TABLE STRUCTURES
+#  # - DO NOT EXPORT DATA FROM `schema_migrations`
+#  sql = File.read('db/data.sql')
+#  statements = sql.split(/;$/)
+#  statements.pop  # the last empty statement
+#
+#  ActiveRecord::Base.transaction do
+#    statements.each do |statement|
+#      connection.execute(statement)
+#    end
+#  end
+#end
