@@ -1,9 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3eb6812-b4df-446c-bc3d-76ecf2902d66" name="Default" comment="merging&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/ey.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    <list default="true" id="e3eb6812-b4df-446c-bc3d-76ecf2902d66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/10/BCU_web_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/76/Babcock_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/92/Babcock_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/67/Baltic_Training_Services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/68/Baltic_Training_Services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/69/Baltic_Training_Services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/70/Baltic_Training_Services.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/9/Baltic_Training_Services_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/11/BirminghamMet_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/2/Bishop_Burton_College_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/60/BlackburnLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/12/Blackburn_College.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/78/Brooksby_Melton_College_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/14/Capgemini_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/59/CentralCollNotts_Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/93/Central_Sussex_College_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/68/Connect2Care_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/37/Creative_Alliance_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/84/Doncaster_College_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/79/Electronics_Yorkshire_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/64/Electronics_Yorkshire_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/28/Fairtrain_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/29/Fairtrain_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/11/Health_and_Care_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/38/Holts_Academy_of_Jewellery_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/42/Holts_Academy_of_Jewellery_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/98/Holts_Academy_of_Jewellery_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/15/Holts_Academy_of_Jewellery_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/97/Honda_logo_100x100_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/43/Intraining_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/7/Intraining_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/95/Jaguar_Land_Rover_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/80/Jaguar_Landrover_app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/76/JustIT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/62/JustIT.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/16/Just_IT_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/1/Lantra_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/4/LeedsCityCollege_LOGO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/32/Leeds_College_of_Building_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/52/Leicester_College_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/91/Leicester_College_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/6/Logo_Virgin_Media_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/25/Logo_Virgin_Media_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/33/Lovell_Colour_Logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/77/NewcastleCityLearning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/63/NewcastleCityLearning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/17/NewcastleCityLearning_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/6/Northumberland_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/18/ParagonLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/5/ParagonLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/46/Positive_Outcomes_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/94/Positive_Outcomes_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/95/Positive_Outcomes_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/small_image/23/Public_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/sector/app_types_image/23/Public_Services_TagCloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/81/PwC_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/65/PwC_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/66/PwC_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/20/Remit_IT_Academy_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/97/Remit_training_logO_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/3/Riseholme_college_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/58/SG_Stroud_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/83/SWAC_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/88/Somerset_Skills___Learning_logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/73/Somerset_Skills___Learning_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/47/Superdrug_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/22/Sussex_Coast_College.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/56/Swindon_College_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/99/TIRlogo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/71/TIRlogo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/24/TPCBusiness_colour_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/98/Thatcham_Automotive_Academy_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/78/TheSheffieldCollege_app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/74/The_Sheffield_College_Logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/61/Training2000_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/89/UKSA_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/49/UK_Power_Networks_Logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/96/UK_Power_Networks_Logo_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/57/UK_Power_Networks_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/35/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/39/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/82/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/83/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/84/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/85/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/86/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/87/Vision_Apprentices_Logos_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/26/Vision_Apprentices_Logos_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/58/Vision_Apprentices_Logos_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/99/Vision_Apprentices_Logos_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/59/West_Notts_College_Logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/8/Wigan_and_Leigh_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/7/YH_Training_logo__100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/1/YH_Training_logo__100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/27/YH_Training_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/75/YH_Training_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/85/YH_Training_logo_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/13/cambridge-regional-college.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/63/craven_college_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/90/institute-of-swimming-new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/44/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/89/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/90/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/91/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/92/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/employer/logo_image/93/learn-direct-new_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/65/learn-direct-new_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/69/learn-direct-new_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/81/learn-direct-new_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/19/positive_outcomes_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/training_provider/logo_image/66/prospcts_college_100x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/21/shipley_college_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/71/shipley_college_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/23/t2000_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/case_study/logo_image/67/t2000_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/apprentice_prod5.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bb_app_guide_copy.iml" afterPath="$PROJECT_DIR$/.idea/bb_app_guide_copy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bb_app_guide_copy.iws" />
@@ -20,10 +137,10 @@
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@IRB_console__bb_app_guide_copy.coverage" NAME="IRB console: bb_app_guide_copy Coverage Results" MODIFIED="1387031594215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@db_migrate__bb_app_guide_copy.coverage" NAME="db:migrate: bb_app_guide_copy Coverage Results" MODIFIED="1386942477945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@Rails_console__bb_app_guide_copy.coverage" NAME="Rails console: bb_app_guide_copy Coverage Results" MODIFIED="1386941544000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
-    <SUITE FILE_PATH="coverage/bb_app_guide_copy@db_seed__bb_app_guide_copy.coverage" NAME="db:seed: bb_app_guide_copy Coverage Results" MODIFIED="1386948936629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
+    <SUITE FILE_PATH="coverage/bb_app_guide_copy@db_seed__bb_app_guide_copy.coverage" NAME="db:seed: bb_app_guide_copy Coverage Results" MODIFIED="1389715160508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@assets_clean__bb_app_guide_copy.coverage" NAME="assets:clean: bb_app_guide_copy Coverage Results" MODIFIED="1386597567084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@db_create__bb_app_guide_copy.coverage" NAME="db:create: bb_app_guide_copy Coverage Results" MODIFIED="1386942316318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
-    <SUITE FILE_PATH="coverage/bb_app_guide_copy@Development__bb_app_guide_copy.coverage" NAME="Development: bb_app_guide_copy Coverage Results" MODIFIED="1387448030018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
+    <SUITE FILE_PATH="coverage/bb_app_guide_copy@Development__bb_app_guide_copy.coverage" NAME="Development: bb_app_guide_copy Coverage Results" MODIFIED="1389715311459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@assets_precompile__bb_app_guide_copy.coverage" NAME="assets:precompile: bb_app_guide_copy Coverage Results" MODIFIED="1386596717369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
     <SUITE FILE_PATH="coverage/bb_app_guide_copy@db_drop__bb_app_guide_copy.coverage" NAME="db:drop: bb_app_guide_copy Coverage Results" MODIFIED="1386942266361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bb_app_guide_copy" />
   </component>
@@ -42,34 +159,7 @@
       <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.33231708" vertical-offset="1302" max-vertical-offset="3162">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="2" selection-start="2172" selection-end="2172" vertical-scroll-proportion="-9.307693" vertical-offset="438" max-vertical-offset="1105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ey.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/ey.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1003">
+            <state line="158" column="0" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.33271375" vertical-offset="2507" max-vertical-offset="3162">
               <folding />
             </state>
           </provider>
@@ -108,16 +198,17 @@
         <option value="$PROJECT_DIR$/app/views/sectors/_form.html.erb" />
         <option value="dbtable:/c13686e9/86666ff9-90a2-4a01-a256-d69470ddaee3/apprentice..apprenticeship_types" />
         <option value="$PROJECT_DIR$/doc/README_FOR_APP" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/apprentice_prod2.sql" />
         <option value="$PROJECT_DIR$/db/apprentice_prod3.sql" />
-        <option value="$PROJECT_DIR$/db/apprentice_prod4.sql" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="dbtable:/c13686e9/86666ff9-90a2-4a01-a256-d69470ddaee3/apprentice..training_providers" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/db/apprentice_prod4.sql" />
+        <option value="$PROJECT_DIR$/db/apprentice_prod5.sql" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
       </list>
     </option>
@@ -130,7 +221,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -179,45 +271,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb_app_guide_copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb_app_guide_copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb_app_guide_copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb_app_guide_copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -225,7 +285,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataDictionary" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dynamic.classpath" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="152" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -248,8 +308,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Gurdipe\Code\bb_app_guide_copy\config" />
+      <recent name="C:\Gurdipe\Code\bb_app_guide_copy\public\uploads" />
       <recent name="C:\Gurdipe\Code\bb_app_guide_copy\db" />
+      <recent name="C:\Gurdipe\Code\bb_app_guide_copy\config" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: bb_app_guide_copy">
@@ -333,7 +394,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="RAILS_ENV" value="test" />
+        <env name="RAILS_ENV" value="development" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -517,8 +578,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console: bb_app_guide_copy" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:seed: bb_app_guide_copy" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:seed: bb_app_guide_copy" />
+        <item index="1" class="java.lang.String" itemvalue="IRB console.IRB console: bb_app_guide_copy" />
         <item index="2" class="java.lang.String" itemvalue="Rake.db:drop: bb_app_guide_copy" />
         <item index="3" class="java.lang.String" itemvalue="Rake.db:create: bb_app_guide_copy" />
         <item index="4" class="java.lang.String" itemvalue="Rake.assets:clean: bb_app_guide_copy" />
@@ -633,24 +694,28 @@
       <created>1387218175606</created>
       <updated>1387218175606</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="merging&#10;">
+      <created>1387471981140</created>
+      <updated>1387471981140</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20468278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21072507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29154077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30513597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29812607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35434413" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48896435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35347432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -703,32 +768,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/sectors/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1122" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/c13686e9/86666ff9-90a2-4a01-a256-d69470ddaee3/apprentice..apprenticeship_types">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README_FOR_APP">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17017" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/case_study_logo_uploader.rb">
@@ -741,19 +783,9 @@
         <state line="10" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1088" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="45668" selection-end="45668" vertical-scroll-proportion="0.0" vertical-offset="512" max-vertical-offset="952" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="4" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
@@ -776,31 +808,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/sector/app_types_image/12/Agriculture_TagCloud.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/sector/app_types_image/22/CustomerService_TagCloud.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/sector/small_image/22/CustomerService_Icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/training_provider/logo_image/46/Walford_and_North_Shropshire_College.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/training_provider/logo_image/47/First4Skills.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/training_provider_logo_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9306358" vertical-offset="483" max-vertical-offset="1088" />
@@ -812,19 +819,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/c13686e9/86666ff9-90a2-4a01-a256-d69470ddaee3/apprentice..training_providers">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/sector/app_types_image/11/Healthcare_TagCloud.png">
-      <provider selected="true" editor-type-id="images">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/sector/app_types_image/1/BusinessIT_TagCloud.png">
+    <entry file="file://$PROJECT_DIR$/public/uploads/sector/app_types_image/11/Healthcare_TagCloud.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -836,107 +838,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/apprenticeship_types_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="10" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1751">
-          <folding />
-        </state>
+        <state line="47" column="10" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="515" max-vertical-offset="1751" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/choosing_an_apprenticeships_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/last_update_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="344">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="344" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/phone_feeds_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/training_providers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/what_is_an_apprenticeships_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.039275" vertical-offset="675" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.039275" vertical-offset="675" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/types_of_apprenticeships_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sectors_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/regions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/how_to_applies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/employers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/apprenticeship_guide.sublime-workspace">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10761">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10761" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -944,40 +916,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/apprenticeship_guide.sublime-project">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/apprentice_prod4.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="770" column="18" selection-start="505781" selection-end="505781" vertical-scroll-proportion="-2.64" vertical-offset="12958" max-vertical-offset="13260">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="373" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/apprentice_prod.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="580" column="30" selection-start="290792" selection-end="290796" vertical-scroll-proportion="-3.24" vertical-offset="9698" max-vertical-offset="9979">
-          <folding />
-        </state>
+        <state line="580" column="30" selection-start="290792" selection-end="290796" vertical-scroll-proportion="-3.24" vertical-offset="9698" max-vertical-offset="9979" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backups/apprentice_prod.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="386.92" vertical-offset="9673" max-vertical-offset="9979">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="386.92" vertical-offset="9673" max-vertical-offset="9979" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/apprentice_prod2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="619" column="31" selection-start="220107" selection-end="220117" vertical-scroll-proportion="-3.24" vertical-offset="10361" max-vertical-offset="10642">
-          <folding />
-        </state>
+        <state line="619" column="31" selection-start="220107" selection-end="220117" vertical-scroll-proportion="-3.24" vertical-offset="10361" max-vertical-offset="10642" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -985,30 +939,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="2" selection-start="2172" selection-end="2172" vertical-scroll-proportion="-9.307693" vertical-offset="438" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1003">
+        <state line="40" column="2" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backups/apprentice_prod1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11849">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11849" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/apprentice_prod3.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="308379" selection-end="308974" vertical-scroll-proportion="0.53968257" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="308379" selection-end="308974" vertical-scroll-proportion="0.53968257" vertical-offset="0" max-vertical-offset="408" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1021,9 +964,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="118" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="278" selection-end="278" vertical-scroll-proportion="0.24401914" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.19721578" vertical-offset="0" max-vertical-offset="431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/apprentice_prod4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="767" column="14" selection-start="0" selection-end="514529" vertical-scroll-proportion="-2.4" vertical-offset="12919" max-vertical-offset="13260">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="45832" selection-end="45832" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="277" selection-end="277" vertical-scroll-proportion="-0.08703375" vertical-offset="287" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/apprentice_prod5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1185" column="0" selection-start="1186101" selection-end="1187257" vertical-scroll-proportion="0.356" vertical-offset="19967" max-vertical-offset="21777">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2016" selection-end="2016" vertical-scroll-proportion="0.33231708" vertical-offset="1302" max-vertical-offset="3162">
+        <state line="158" column="0" selection-start="3630" selection-end="3630" vertical-scroll-proportion="0.33271375" vertical-offset="2507" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>

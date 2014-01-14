@@ -29,22 +29,23 @@
 #  { :type_id => 2, :title => "Agricultural & Land-based Industries Apprenticeships", :small_content => "View Agricultural and Land-based Industries\r\n\r\nThe land-based and environmental industries play a key role in both the national and global economies. In the UK alone, the sector is worth more than £8.9 billion per year, and employs over a million employees and 500,000 volunteers. It's a profitable sector, but that's only part of it - this industry improves quality of life here in the UK by supplying us with food, producing crops, enriching the rural and urban environment, and protecting our natural heritage.\r\n\r\nLand-based and environmental industries can be broken down into three major categories: land management and production, animal health and welfare, and environmental industries. There are a wide variety of jobs in the sector, and most of them are practical, requiring physical effort and work outdoors.\r\n\r\nPeople you will find in the field include general farm workers, gardeners, fencing contractors, tree surgeons and gamekeepers. There are also creative occupations available, such as floristry; as well as caring jobs that include working for animal welfare charities, as a veterinary nurse, or at a kennels or cattery. In addition, there are more technical roles on offer, such as land-based engineering, and many management opportunities.\r\n\r\nThe Apprenticeships in this section cover 17 different disciplines, from land-based engineering to veterinary nursing. Each of these industries offers the chance to develop skills in practical, technical and specialised areas with opportunities for career progression. And if you've always wanted to run your own business, then this could be a good place to start - today, more than half the people in the workforce run their own business.", :full_content => "", :discipline_id => 10, :created_at => "2012-07-20 02:02:42", :updated_at => "2012-07-20 02:02:42", :article_type => nil },
 #  { :type_id => 1, :title => "Find an Apprenticeship", :small_content => "You can find out more about the different industry sectors by clicking the links on the left., or go directly to the employers by clicking on the following links. Remember, anyone featured on this site wants to hear from you!\r\n\r\n    Agricultural and Land Based Industries\r\n    Beauty and Well Being\r\n    Business and IT\r\n    Construction\r\n    Charities and Volunteering\r\n    Creative, Media and Arts\r\n    Customer Service and Retail\r\n    Energy\r\n    Engineering and Electrical\r\n    Finance\r\n    Health, Care and Public Services\r\n    Manufacturing, Processing and Logistics\r\n    Marine\r\n    Sport & Fitness\r\n    Travel and Hospitality\r\n    Vehicles & Transport\r\n\r\nContact the Sector Skills Councils if you want more information on working in their field - they're responsible for raising the profiles of the industries they represent:\r\n\r\n    http://www.sscalliance.org/Home-Public/SectorSkillsCouncils/SSC_Contacts.aspx\r\n", :full_content => "", :discipline_id => 0, :created_at => "2012-07-20 02:04:30", :updated_at => "2012-07-20 02:04:30", :article_type => nil }
 #], :without_protection => true )
-
-#  connection = ActiveRecord::Base.connection
-#  connection.tables.each do |table|
-#    connection.execute("TRUNCATE #{table}") unless table == "schema_migrations"
-#  end
-##
-#  # - IMPORTANT: SEED DATA ONLY
-#  # - DO NOT EXPORT TABLE STRUCTURES
-#  # - DO NOT EXPORT DATA FROM `schema_migrations`
-#  sql = File.read('db/apprentice_prod4.sql')
-#  statements = sql.split(/;$/)
-#  statements.pop  # the last empty statement
-#
-#  ActiveRecord::Base.transaction do
-#    statements.each do |statement|
-#      connection.execute(statement)
-#    end
-#  end
 #end
+
+  connection = ActiveRecord::Base.connection
+  connection.tables.each do |table|
+    connection.execute("TRUNCATE #{table}") unless table == "schema_migrations"
+  end
+#
+  # - IMPORTANT: SEED DATA ONLY
+  # - DO NOT EXPORT TABLE STRUCTURES
+  # - DO NOT EXPORT DATA FROM `schema_migrations`
+  sql = File.read('db/apprentice_prod5.sql')
+  statements = sql.split(/;$/)
+  statements.pop  # the last empty statement
+
+  ActiveRecord::Base.transaction do
+    statements.each do |statement|
+      connection.execute(statement)
+    end
+  end
+
