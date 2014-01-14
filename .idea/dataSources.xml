@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails bb_app_guide_copy: development" uuid="374db532-cecc-4c63-b7b3-531798d6ec9e">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/apprentice</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/apprentice_new_07</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfdadfc2dfcbdfdcdfcbdfc4df9adf9b</user-password>
       <libraries />
