@@ -13,7 +13,7 @@
 
    <div class="field">
     <%= f.label :sector_id %><br />
-    <%= f.collection_select( :sector_id, Sector.all, :id, :title) %>
+    <%= f.collection_select( :sector_id, Sector.order('title ASC').all, :id, :title) %>
 
   </div>
   <div class="field">

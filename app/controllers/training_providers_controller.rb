@@ -27,8 +27,8 @@ class TrainingProvidersController < ApplicationController
   # GET /training_providers/new.json
   def new
     @training_provider = TrainingProvider.new
-    @sectors = Sector.all
-    @regions  = Region.all
+    @sectors = Sector.order('title ASC').all
+    @regions  = Region.order('name ASC').all
 
     respond_to do |format|
       format.html # new.html.erb

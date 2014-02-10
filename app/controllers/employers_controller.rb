@@ -28,8 +28,8 @@ class EmployersController < ApplicationController
   # GET /employers/new.json
   def new
     @employer = Employer.new
-    @sectors = Sector.all
-    @regions = Region.all
+    @sectors = Sector.order('title ASC').all
+    @regions  = Region.order('name ASC').all
 
     respond_to do |format|
       format.html # new.html.erb
