@@ -20,6 +20,8 @@
   resources  :what_is_an_apprenticeships
 
   resources  :sectors
+  resources  :careers
+  resources  :subjects
 
   resources  :apprenticeship_types
 

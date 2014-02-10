@@ -37,6 +37,8 @@ class ApprenticeshipTypesController < ApplicationController
   # GET /apprenticeship_types/new.json
   def new
     @apprenticeship_type = ApprenticeshipType.new
+    @careers = Career.all
+    @subjects = Subject.all
 
     respond_to do |format|
       format.html # new.html.erb
@@ -47,6 +49,8 @@ class ApprenticeshipTypesController < ApplicationController
   # GET /apprenticeship_types/1/edit
   def edit
     @apprenticeship_type = ApprenticeshipType.find(params[:id])
+    @careers = Career.all
+    @subjects = Subject.all
   end
 
   # POST /apprenticeship_types

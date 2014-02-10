@@ -21,6 +21,32 @@
     <%= f.text_field :apprenticeship_type %>
   </div>
 
+    <div class="field">
+
+      <%= hidden_field_tag "apprenticeship_type[career_ids][]", "" %>
+      <ul>
+        <% @careers.each do |career| %>
+            <li>
+              <%= check_box_tag "apprenticeship_type[career_ids][]", career.id, @apprenticeship_type.careers.include?(career) %>
+              <%= h career.name %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+
+    <div class="field">
+
+      <%= hidden_field_tag "apprenticeship_type[subject_ids][]", "" %>
+      <ul>
+        <% @subjects.each do |subject| %>
+            <li>
+              <%= check_box_tag "apprenticeship_type[subject_ids][]", subject.id, @apprenticeship_type.subjects.include?(subject) %>
+              <%= h subject.name %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+
 
   <div class="field">
     <%= f.label :description %><br />

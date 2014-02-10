@@ -1,9 +1,15 @@
 class ApprenticeshipType < ActiveRecord::Base
   attr_accessible :apprenticeship_type, :description, :job_role, :qualification, :salary, 
   :sector_id, :print_title, :print_description, :print_qualification, :print_job_role,
-  :issuing_authority, :new, :revised, :higher_apprenticeship, :print_salary
+  :issuing_authority, :new, :revised, :higher_apprenticeship, :print_salary, :career_ids, :subject_ids
 
   belongs_to :sector
+
+  has_many :apprenticeship_type_careers, :dependent => :destroy
+  has_many :careers, through: :apprenticeship_type_careers
+
+  has_many :apprenticeship_type_subjects, :dependent => :destroy
+  has_many :subjects, through: :apprenticeship_type_subjects
 
    def appTypeDescription
 		description
