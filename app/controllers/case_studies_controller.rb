@@ -2,7 +2,7 @@ class CaseStudiesController < ApplicationController
   # GET /case_studies
   # GET /case_studies.json
   def index
-    @case_studies = CaseStudy.all
+    @case_studies = CaseStudy.order('heading ASC').all
 
     respond_to do |format|
       format.html # index.html.erb

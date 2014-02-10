@@ -26,7 +26,7 @@
     <td><%= case_study.company_name %></td>
     <td><%= case_study.title %></td>
     <td><%= case_study.standfirst %></td>
-    <td><%= case_study.description %></td>
+    <td><%= truncate case_study.description, length: 100 %></td>
     <td><%= case_study.website %></td>
     <td><%= case_study.hyperlink %></td>
     <td><%= case_study.email_address %></td>
