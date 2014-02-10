@@ -25,7 +25,11 @@
 <% @training_providers.each do |training_provider| %>
   <tr>
     <td><%= training_provider.provider_name %></td>
-    <td><%= training_provider.region %></td>
+    <td>
+      <% training_provider.regions.each do |region| %>
+            <%= region.name %><%= ", " unless training_provider.regions.last.name == region.name %>
+      <% end %>
+    </td>
     <td><%= image_tag(training_provider.logo_image.url.to_s, :size => "60x60") %></td>
     <td><%= truncate(training_provider.provider_description, :length =>50, :separator => ' ') %></td>
     <td><%= training_provider.email_address %></td>

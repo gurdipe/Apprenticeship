@@ -7,7 +7,10 @@
 
 <p>
   <b>Region:</b>
-  <%= @training_provider.region %>
+  <% @training_provider.regions.each do |region| %>
+      <%= region.name %>
+      <%= "," unless @training_provider.regions.last.name == region.name %>
+  <% end %>
 </p>
 
 <p>
