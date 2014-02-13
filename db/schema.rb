@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140210205514) do
+ActiveRecord::Schema.define(:version => 20140213005809) do
 
   create_table "apprenticeship_type_careers", :force => true do |t|
     t.integer  "apprenticeship_type_id"
@@ -77,8 +77,9 @@ ActiveRecord::Schema.define(:version => 20140210205514) do
     t.text     "telephone_number"
     t.string   "logo_image"
     t.string   "photo"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
+    t.integer  "hall_of_fame",     :default => 0
   end
 
   create_table "choosing_an_apprenticeships", :force => true do |t|
